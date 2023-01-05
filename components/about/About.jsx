@@ -16,7 +16,7 @@ const About = () => {
     <div className="edina_tm_about" id="about">
       <div className="container">
         <div className="about_title">
-          <h3>About Me</h3>
+          <h3>Hakkımda</h3>
         </div>
         <div className="content">
           <div

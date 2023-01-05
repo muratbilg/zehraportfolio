@@ -12,6 +12,7 @@ import Contact from "../../Contact";
 import Address from "../../Address";
 import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
+import Appointment from "../../Appointment";
 
 const EdinaHomeSidebar = () => {
   const [isDark, setIsDark] = useState(false);
@@ -134,11 +135,56 @@ const EdinaHomeSidebar = () => {
         </div>
       </div>
       {/* End Blog */}
-
+      <div className="edina_tm_contact" id="appointment">
+        <div className="container">
+          <div className="edina_tm_title">
+            <h3>Randevu</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              ipsum sit nibh amet egestas tellus.
+            </p>
+          </div>
+          <div className="extra_info">
+            <Address />
+          </div>
+          {/* End Address Info */}
+          <div className="mainpart">
+            <div
+              className="left"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+            >
+              <div className="title">
+                <p>
+                  I am always open to discussing product
+                  <br />
+                  <span> design work or partnerships.</span>
+                </p>
+              </div>
+              {/* End title */}
+              <div className="fields">
+                <Appointment />
+              </div>
+              {/* End Contact Form */}
+            </div>
+            <div
+              className="right"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+            >
+              <Map />
+            </div>
+            {/* End Map */}
+          </div>
+        </div>
+      </div>
+      {/* /Appointment */}
       <div className="edina_tm_contact" id="contact">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Contact</h3>
+            <h3>Iletisim</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               ipsum sit nibh amet egestas tellus.

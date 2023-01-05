@@ -37,7 +37,7 @@ const Sidebar = () => {
             <div className="logo">
               <Image className="logo_light" src={logo} alt="brand" />
               <Image className="logo_dark" src={logo2} alt="brand" />
-              <p>Zehra Guler</p>
+              {/* <p>Zehra Guler</p> */}
             </div>
           </Link>
           {/* End .logo */}
@@ -48,9 +48,9 @@ const Sidebar = () => {
                 "home",
                 "about",
                 "service",
-                "portfolio",
                 "testimonial",
                 "blog",
+                "appointment",
                 "contact",
               ]}
               activeNavClass="active"
@@ -66,11 +66,7 @@ const Sidebar = () => {
                         className={val.activeClass}
                         onClick={handleClick}
                       >
-                        <img
-                          className="svg custom"
-                          src={`img/svg/${val.icon}.svg`}
-                          alt="icon"
-                        />
+                        {val.icon}
                         {val.itemName}
                       </a>
                     </div>

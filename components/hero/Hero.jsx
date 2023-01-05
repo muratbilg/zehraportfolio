@@ -8,8 +8,11 @@ import heroImage from "../../public/img/hero/2.jpg";
 const heroContent = {
   shapeImage: shapeImage,
   heroImage: heroImage,
-  name: "Zehra Guler",
-  description: `Bilişsel davranışçı terapi yönelimine duygun danışanlardan sıklıkla ergenler ve yetişkinlerle çalışmaktayım. Sosyal fobi, duygu duru bozuklukları, ilişkilerdeki bozulmalar, OKB, karşıt olma karşıt gelme bozukluğu, kaygı, panik atak, sigara, teknoloji ve hafif düzey kumar bağımlılığının yanı sıra bireysel psikolojik danışmanlık başarılı olduğum alanlardır.`,
+  name: "Zehra Güler",
+  description: `Bilişsel Davranışçı Terapi, Oyun Terapisi ve Emdr terapi tekniğini kullanarak çocuk, 
+  ergen ve yetişkinlerle çalışmaktayım. Kaygı bozuklukları, depresyon, obsesif kompulsif bozukluk, 
+  yaşam problemleri, travma ve yas, bağımlılık, ergen aile iş birliği, öfke ve saldırganlık, okul problemleri, 
+  kardeş kıskançlığı, tuvalet sorunları, okul reddi, yeme ve uyku problemleri başarılı olduğum alanlardır.`,
 };
 
 const Hero = () => {
@@ -21,14 +24,14 @@ const Hero = () => {
           <Image src={heroContent.shapeImage} alt="photo" />
         </div>
         <div className="extra">
-          <h5
+          <h2
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="100"
             className="hello"
           >
             Psikolog {heroContent.name}
-          </h5>
+          </h2>
           <h1
             className="name"
             data-aos="fade-up"
@@ -69,15 +72,27 @@ const Hero = () => {
           >
             <Social />
           </div>
-          <div
-            className="edina_tm_button"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-            data-aos-delay="500"
-          >
-            <a href="img/sample.pdf" download className="color">
-              Randevu Al
-            </a>
+          <div>
+            <div
+              className="edina_tm_button"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
+              <a href="#appointment" download className="color">
+                Randevu Al
+              </a>
+            </div>
+            <div
+              className="edina_tm_button"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
+              <a href="#contact" download className="color">
+                İletişime Geç
+              </a>
+            </div>
           </div>
         </div>
       </div>
