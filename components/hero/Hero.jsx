@@ -41,9 +41,13 @@ const Hero = () => {
             <span className="typer-toper">
               <ReactTyped
                 loop
-                typeSpeed={250}
-                backSpeed={60}
-                strings={["EMDR Terapisi", "Oyun Terapisi"]}
+                typeSpeed={75}
+                backSpeed={100}
+                strings={[
+                  "Bilişsel Davranışçı Terapi",
+                  "EMDR Terapi",
+                  "Oyun Terapisi",
+                ]}
                 smartBackspace
                 shuffle={false}
                 backDelay={1}
@@ -79,11 +83,10 @@ const Hero = () => {
               data-aos-duration="1200"
               data-aos-delay="500"
             >
-              <a href="#appointment" download className="color">
+              <a href="#appointment" className="color">
                 Randevu Al
               </a>
             </div>
-           
           </div>
         </div>
       </div>

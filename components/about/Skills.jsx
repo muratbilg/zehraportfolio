@@ -1,10 +1,5 @@
 import React from "react";
-/*Lisans Uludag Universitesi - Psikoloji (2017) 
-                Sertifika I. Düzey
-                EMDR Eğitimi(2022) 
-                Sertifika Bilişsel-Davranışçı Oyun Terapisi
-                (2022) Eğitim Bilişsel Davranışçı Terapi Eğitimi (2018) Eğitim
-                Madde, Sigara, Alkol Bağımlılığı ile Çalışma Eğitimi (2017) */
+
 const skillsContent = [
   {
     name: "Lisans Uludag Universitesi - Psikoloji (2017) ",
@@ -27,7 +22,7 @@ const skillsContent = [
     skillPercent: "100",
   },
   {
-    name: "Mindfullness",
+    name: `Mindfullness Temelli Terapilere Giriş Eğitimi (2017)`,
     skillPercent: "100",
   },
 ];

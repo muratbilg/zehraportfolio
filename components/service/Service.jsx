@@ -27,7 +27,6 @@ const Service = () => {
             <Tilt>
               <div className="list_inner" onClick={() => handleModle(item?.id)}>
                 <div className="hover">
-                  <img className="svg custom" src={item.imgIcon} alt="icon" />
                   <div className="service_title">
                     <h3>{item.title}</h3>
                   </div>

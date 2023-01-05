@@ -7,11 +7,11 @@ import {
 const SocialShare = [
   {
     iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/pskzehraguler/",
   },
   {
     iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/feed/",
+    link: "https://www.linkedin.com/in/zehraguler/",
   },
 ];
 const Social = () => {

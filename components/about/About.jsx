@@ -30,46 +30,48 @@ const About = () => {
                 Psikolog <span>Zehra Guler</span>
               </h3>
               <p>
-                Bilişsel Davranışçı Terapi, Oyun Terapisi ve Emdr terapi
-                tekniğini kullanarak çocuk, ergen ve yetişkinlerle
-                çalışmaktayım. Kaygı bozuklukları, depresyon, obsesif kompulsif
-                bozukluk, yaşam problemleri, travma ve yas, bağımlılık, ergen
-                aile iş birliği, öfke ve saldırganlık, okul problemleri, kardeş
-                kıskançlığı, tuvalet sorunları, okul reddi, yeme ve uyku
-                problemleri başarılı olduğum alanlardır.
+                Lisans eğitimimi Uludağ Üniversitesi Psikoloji bölümünde 2017
+                yılında tamamladım. Mezun olduktan sonra Bilişsel davranışçı
+                Terapi, Oyun Terapisi, Emdr ve çeşitli değerlendirme eğitimleri
+                alarak psikoterapi uygulama yetkinliği kazandım. 6 yıl boyunca
+                çeşitli danışmanlık merkezlerinde, anaokullarında,
+                rehabilitasyon merkezlerinde ve gönüllü kuruluşlarda psikolog
+                olarak görev yaptım. Yetişkin problemlerinin farklı çeşitleri
+                ile, ergenlik sorunlarının aile-okul-bireysel bölümlerinde,
+                çocukluk döneminin bilişsel-psikolojik gelişimsel alanlarında
+                deneyim edinme fırsatı buldum. Şuan çocuk,ergen ve yetişkinlerle
+                yüz yüze ve online psikoterapi uygulamaktayım.
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">Egitimlerim</h3>
-              <p className="desc">
-                
-              </p>
+              <h3 className="title">Eğitimlerim</h3>
+              <p className="desc"></p>
               <div className="wrapper">
                 <div className="dodo_progress">
                   <Skills />
                 </div>
               </div>
-              <div className="edina_tm_button">
+              {/* <div className="edina_tm_button">
                 <button
                   type="submit"
                   className="color"
                   onClick={toggleModalOne}
                 >
-                  See More
+                  Daha fazla
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* End leftpart */}
 
           <div className="rightpart">
             <div className="image">
-              <img src="img/thumbs/26-35.jpg" alt="thumb" />
+              <img src="img/hero/1.jpg" alt="thumb" />
 
               <div
                 className="main"
                 style={{
-                  backgroundImage: "url(img/about/2.jpg)",
+                  backgroundImage: "url(img/hero/1.jpg)",
                 }}
                 data-aos="fade-left"
                 data-aos-duration="1200"
@@ -83,8 +85,8 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <div className="info">
-                  <h3>6+ Yillik</h3>
-                  <span>Tecrube</span>
+                  <h3>6+ Yıllık</h3>
+                  <span>Tecrübe</span>
                 </div>
               </div>
             </div>
