@@ -33,7 +33,7 @@ body {
   word-wrap: break-word;
   font-weight: 400;
   background-color: #fff;
-  color: #7e7e7e;
+  color: #272727;
   overflow-x: hidden;
   @media screen and (max-width: 768px) {
     font-size: 16px;
@@ -468,7 +468,9 @@ body.dark .loader_line:after {
   }
 }
 .edina_tm_sidebar .logo p {
-  margin-left: 10px;
+  margin-left: 20px;
+  font-size: 24px;
+  color: #000;
 }
 .edina_tm_sidebar .menu {
   width: 100%;
@@ -677,7 +679,6 @@ body.dark .loader_line:after {
 }
 .edina_tm_hero .name {
   font-size: 44px;
-  font-weight: 700;
   line-height: 1.2;
   margin: 10px 0 12px;
 }
@@ -691,9 +692,10 @@ body.dark .loader_line:after {
 }
 
 .edina_tm_hero .text {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0px auto 32px auto;
   font-size: 17px;
+  font-weight: 500;
   @media screen and (max-width: 575px) {
     font-size: 15px;
   }
@@ -777,7 +779,7 @@ body.dark .loader_line:after {
   line-height: 1;
 }
 .hello {
-  color: #666;
+  color: black;
   font-weight: 500;
 }
 .edina_tm_about .color {
@@ -3280,6 +3282,7 @@ a {
         border-bottom: none;
         padding: 0;
         height: auto;
+        color: #000;
       }
 
       .author {

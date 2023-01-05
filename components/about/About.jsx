@@ -27,20 +27,22 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, Im <span>Rokers Nelson</span>
+                Psikolog <span>Zehra Guler</span>
               </h3>
               <p>
-                Im a Freelancer Front-end Developer with over 6 years of
-                experience. Im from San Francisco. I code and create web
-                elements for amazing people around the world. I like work with
-                new people.
+                Bilişsel Davranışçı Terapi, Oyun Terapisi ve Emdr terapi
+                tekniğini kullanarak çocuk, ergen ve yetişkinlerle
+                çalışmaktayım. Kaygı bozuklukları, depresyon, obsesif kompulsif
+                bozukluk, yaşam problemleri, travma ve yas, bağımlılık, ergen
+                aile iş birliği, öfke ve saldırganlık, okul problemleri, kardeş
+                kıskançlığı, tuvalet sorunları, okul reddi, yeme ve uyku
+                problemleri başarılı olduğum alanlardır.
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What is my skill level?</h3>
+              <h3 className="title">Egitimlerim</h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+                
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
@@ -81,8 +83,8 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <div className="info">
-                  <h3>6+ Years</h3>
-                  <span>Of Experiance</span>
+                  <h3>6+ Yillik</h3>
+                  <span>Tecrube</span>
                 </div>
               </div>
             </div>

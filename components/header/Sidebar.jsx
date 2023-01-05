@@ -37,7 +37,7 @@ const Sidebar = () => {
             <div className="logo">
               <Image className="logo_light" src={logo} alt="brand" />
               <Image className="logo_dark" src={logo2} alt="brand" />
-              {/* <p>Zehra Guler</p> */}
+              <p>Zehra Güler</p> 
             </div>
           </Link>
           {/* End .logo */}
@@ -66,8 +66,16 @@ const Sidebar = () => {
                         className={val.activeClass}
                         onClick={handleClick}
                       >
-                        {val.icon}
-                        {val.itemName}
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            alignContent: "center",
+                          }}
+                        >
+                          <div style={{marginRight:"10px",height:"26px"}}>{val.icon}</div>
+                          <p>{val.itemName}</p>
+                        </div>
                       </a>
                     </div>
                   </li>

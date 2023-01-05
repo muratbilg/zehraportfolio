@@ -75,11 +75,8 @@ const EdinaHomeSidebar = () => {
       <div className="edina_tm_services" id="service">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>What I Do</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
+            <h3>Çalışma ve Uzmanlık Alanlarım</h3>
+            <p>Çalışma ve Uzmanlık Alanlarımla ilgili kısa bilgiler</p>
           </div>
           {/* End edian_tm_title */}
           <Service />
@@ -87,7 +84,7 @@ const EdinaHomeSidebar = () => {
       </div>
       {/* End Services */}
 
-      <div className="edina_tm_portfolio" id="portfolio">
+      {/*<div className="edina_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
@@ -96,20 +93,15 @@ const EdinaHomeSidebar = () => {
               ipsum sit nibh amet egestas tellus.
             </p>
           </div>
-          {/* End edian_tm_title */}
           <Portfolio />
         </div>
-      </div>
-      {/* End Portfolio */}
+  </div>*/}
 
       <div className="edina_tm_testimonials" id="testimonial">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Testimonials</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
+            <h3>Danışan Yorumlar</h3>
+            <p></p>
           </div>
           {/* End edian_tm_title */}
           <div className="list ">
@@ -125,10 +117,7 @@ const EdinaHomeSidebar = () => {
         <div className="container">
           <div className="edina_tm_title">
             <h3>Blog</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
+            <p>Blog yazıları</p>
           </div>
           {/* End edian_tm_title */}
           <Blog />
@@ -139,10 +128,7 @@ const EdinaHomeSidebar = () => {
         <div className="container">
           <div className="edina_tm_title">
             <h3>Randevu</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
+            <p>Online ve yüz yüze randevu alabilirsiniz</p>
           </div>
           <div className="extra_info">
             <Address />
@@ -157,9 +143,9 @@ const EdinaHomeSidebar = () => {
             >
               <div className="title">
                 <p>
-                  I am always open to discussing product
+                  Her zaman <span> destek ve yardım </span> için
                   <br />
-                  <span> design work or partnerships.</span>
+                  iletişime geçebilirsiniz.
                 </p>
               </div>
               {/* End title */}

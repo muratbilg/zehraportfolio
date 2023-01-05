@@ -127,7 +127,7 @@ const Blog = () => {
                   {/* End description */}
 
                   <div className="news_share ">
-                    <span>Share:</span>
+                    <span>Paylaş:</span>
                     <Social />
                   </div>
                   {/* End news share */}

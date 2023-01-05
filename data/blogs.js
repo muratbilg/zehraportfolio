@@ -1,45 +1,47 @@
 module.exports = [
   {
     id: 1,
-    img: "img/news/4.jpg",
-    title: "Frozo Immobile",
-    date: "April 07,2021",
-    meta: "Design",
+    img: "img/news/1.jpg",
+    title: "Psikolog ne yapmamalı?",
+    date: "Nisan 07,2021",
+    meta: "Tavsiyeler",
     descriptionText1: (
       <>
         <p>
-          Just because we can nott get out and about like we normally would,
-          doesn’t mean we have to stop taking pictures. There’s still plenty you
-          can do, provided you are prepared to use some imagination. Here are a
-          few ideas to keep you shooting until normal life resumes.
+          Psikoterapi sınırları çokça ihlal edilen sağlık alanlarından biridir.
+          Diğer sağlık alanları gibi psikolojik sağlık alanındaki ilk ilke de
+          “Önce Zarar Verme”dir. Terapi hizmeti almak isteyen insanların zarar
+          görmesinin önüne geçmek için psikologların yapmaması gereken
+          davranışlar hakkında bilgilendirmek isterim.
         </p>
-
-        <p>
-          Streets empty that are usually busy are remarkable and can evoke the
-          sense of historical pictures from before the invention of the
-          motorcar. Other things that are different at the moment will be queues
-          to get into stores and the lines marked out on the floor to show how
-          far apart we should be.
-        </p>
+        <p></p>
+        <p></p>
       </>
     ),
     blockquote: (
       <>
         <p>
-          Most photographers find it hard to see interesting pictures in places
-          in which they are most familiar. A trip somewhere new seems always
-          exactly what our photography needed, as shooting away from home
-          consistently inspires us to new artistic heights.
+          “Psikolog ne yapmamalı?” Danışanın karar alması gereken durumlarda ona
+          ne yapacağını söylememeli, yönlendirme yapmamalıdır. Danışanın hayatı
+          ve psikoloğun kişisel görüşü arasındaki sınır her zaman ne olmalıdır.
+          Psikolog karar süreçlerindeki zorluğa eşlik eden kişidir.
         </p>
       </>
     ),
     descriptionText2: (
       <>
         <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
+          Danışanın sahip olduğu düşüncelerden, sergilediği davranışlardan,
+          yaşam şeklinden dolayı yargılamamalı ve danışana koşulsuz olumlu saygı
+          duymalıdır. Faydalı psikolog olabilmenin ön koşullarından biri
+          psikoloğun seans anlarını ön yargılarından arındırmasıdır. İnsan
+          olarak bu her zaman mümkün değildir ve hatalar yapılabilir. Fakat
+          psikolog bir profesyonel olarak hatasını kabul edip çözüme gitmeye
+          açık olmalıdır. Danışanlar seans anlarında kendilerini rahat, özgür,
+          sansürsüz hissetmelidir. Eğer psikoloğunuzun sizi sıklıkla
+          yargıladığını hissediyorsanız ortada büyük bir problem var demektir.
+          Bu hislerinizi bir an önce kendisi ile paylaşın ve sizi empatik,
+          güvenle karşıladığından emin olun.
         </p>
       </>
     ),
@@ -47,169 +49,58 @@ module.exports = [
   {
     id: 2,
     img: "img/news/2.jpg",
-    title: "Mosby Lavette",
-    date: "March 25,2022",
-    meta: "Branding",
+    title: "ODAKLANMA EGZERSİZLERİ",
+    date: "Mart 25,2022",
+    meta: "Oneriler",
     descriptionText1: (
       <>
         <p>
-          Just because we can nott get out and about like we normally would,
-          doesn’t mean we have to stop taking pictures. There’s still plenty you
-          can do, provided you are prepared to use some imagination. Here are a
-          few ideas to keep you shooting until normal life resumes.
+          Dikkat süresinin azalmasından şikâyet eden, bir işin başında vakit
+          geçirmekte zorluk yaşayan, ders çalışma davranışını sürdüremeyenler
+          için birkaç odaklanma egzersizi paylaşacağız.
         </p>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
-        </p>
+        <ul>
+          <li>
+            Planlamaya az vakit harcamak Bir işi nasıl yapacağınızı fazlaca
+            planlamak işi yapma zamanında sabrınızın tükenmesine sebep olabilir.
+            Bu sebeple planlamayı az ve öz tutmak işi yapma anına daha fazla
+            motivasyon kalmasını sağlar.
+          </li>
+          <li>
+            Dikkati önce dağıt, sonra toplamaİşi yapma esnasında zihninize
+            düşünceler yığılmaya başladıysa çok daha basit tek bir odak noktası
+            seçip dikkatinizi işten tamamen uzaklaştırın. Örneğin ders
+            çalışırken dikkat dağıldıysa ve akla birçok düşünce gelmeye
+            başladıysa önünüzdeki kalemleri renklerine göre ayırıp
+            sayabilirsiniz. Böylece dikkati dersten uzaklaştırırken başka bir
+            yönde tekrar toplamış olursunuz. Bu basit etkinliğe tamamen
+            odaklandıktan ve diğer düşüncelerin dağıldığını fark ettikten sonra
+            tekrar yapmanız gerek işe dönebilirsiniz.{" "}
+          </li>
+          <li>
+            Pomodoro tekniği:
+            Bu teknik çalışmakta zorlanan insanlar için
+            geliştirilmiştir. 25dk çalışma 5 dk moladan oluşan 30dklık
+            periyotlardan oluşur. Her dört periyottan sonra ise 25 dklık mola
+            verilir.
+          </li>
+        </ul>
+        <p></p>
       </>
     ),
     blockquote: (
       <>
         <p>
-          Streets empty that are usually busy are remarkable and can evoke the
-          sense of historical pictures from before the invention of the
-          motorcar. Other things that are different at the moment will be queues
-          to get into stores
+          Bu teknikle çalışan birçok telefon uygulaması vardır. İşte bunlardan
+          bazıları; • Focus To Do Hem bir yapacaklar listesi hazırlamanıza
+          yardımcı oluyor hem de 25dk’lık çalışma periyodları oluşturuyor. •
+          Freedom Belirlediğiniz süre boyunca telefondaki diğer uygulamaların
+          kullanımını sınırlandırıyor. • Forest Odaklanmanız gereken süre
+          boyunca sanal bir ağaç yetiştiriyor. • Focus Booster Pomodoro
+          tekniğini birebir uyguluyor.
         </p>
       </>
     ),
-    descriptionText2: (
-      <>
-        <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
-        </p>
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
-      </>
-    ),
-  },
-  {
-    id: 3,
-    img: "img/news/3.jpg",
-    title: "Jacuba Bamba",
-    date: "May 01,2022",
-    meta: "Lifestyle",
-    descriptionText1: (
-      <>
-        <p>
-          Just because we can nott get out and about like we normally would,
-          doesn’t mean we have to stop taking pictures. There’s still plenty you
-          can do, provided you are prepared to use some imagination. Here are a
-          few ideas to keep you shooting until normal life resumes.
-        </p>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
-        </p>
-        <p>
-          Streets empty that are usually busy are remarkable and can evoke the
-          sense of historical pictures from before the invention of the
-          motorcar. Other things that are different at the moment will be queues
-          to get into stores and the lines marked out on the floor to show how
-          far apart we should be.
-        </p>
-      </>
-    ),
-    blockquote: (
-      <>
-        <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
-        </p>
-      </>
-    ),
-    descriptionText2: (
-      <>
-        <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
-        </p>
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
-      </>
-    ),
-  },
-  {
-    id: 4,
-    img: "img/news/1.jpg",
-    title: "Dostie Memorie",
-    date: "July 07,2021",
-    meta: "Travel",
-    descriptionText1: (
-      <>
-        <p>
-          Just because we can nott get out and about like we normally would,
-          doesn’t mean we have to stop taking pictures. There’s still plenty you
-          can do, provided you are prepared to use some imagination. Here are a
-          few ideas to keep you shooting until normal life resumes.
-        </p>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
-        </p>
-        <p>
-          Streets empty that are usually busy are remarkable and can evoke the
-          sense of historical pictures from before the invention of the
-          motorcar. Other things that are different at the moment will be queues
-          to get into stores and the lines marked out on the floor to show how
-          far apart we should be.
-        </p>
-      </>
-    ),
-    blockquote: (
-      <>
-        <p>
-          Just because we can nott get out and about like we normally would,
-          doesn’t mean we have to stop taking pictures. There’s still plenty you
-          can do, provided you are prepared to use some imagination. Here are a
-          few ideas to keep you shooting until normal life resumes.
-        </p>
-      </>
-    ),
-    descriptionText2: (
-      <>
-        <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
-        </p>
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
-      </>
-    ),
+    descriptionText2: <></>,
   },
 ];

@@ -32,7 +32,7 @@ const Service = () => {
                     <h3>{item.title}</h3>
                   </div>
                   <div className="learn_more">
-                    Learn More<span></span>
+                    Daha fazla<span></span>
                   </div>
                 </div>
               </div>

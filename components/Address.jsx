@@ -3,7 +3,7 @@ const Address = () => {
     {
       id: 1,
       iconImg: "img/address/phone.png",
-      name: "Phone",
+      name: "Telefon",
       info: (
         <>
           <li>
@@ -35,14 +35,14 @@ const Address = () => {
     {
       id: 3,
       iconImg: "img/address/location.png",
-      name: "Address",
+      name: "Adres",
       info: (
         <>
           <li>
             <p>
               Envato 121 King St,
               <br />
-              Melbourne, Australia
+              Bursa
             </p>
           </li>
         </>

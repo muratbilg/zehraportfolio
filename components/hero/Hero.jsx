@@ -83,16 +83,7 @@ const Hero = () => {
                 Randevu Al
               </a>
             </div>
-            <div
-              className="edina_tm_button"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="500"
-            >
-              <a href="#contact" download className="color">
-                İletişime Geç
-              </a>
-            </div>
+           
           </div>
         </div>
       </div>
