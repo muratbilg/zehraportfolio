@@ -62,7 +62,7 @@ const Address = () => {
         >
           <div className="list_inner">
             <div className="icon">
-              <img src={item.iconImg} alt="icon" />
+              <Image src={item.iconImg} alt="icon" />
             </div>
             {/* End icon */}
             <div className="content">
