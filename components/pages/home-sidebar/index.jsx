@@ -14,7 +14,7 @@ import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
 import Appointment from "../../Appointment";
 
-const zehraHomeSidebar = () => {
+const ZehraHomeSidebar = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -217,4 +217,4 @@ const zehraHomeSidebar = () => {
   );
 };
 
-export default zehraHomeSidebar;
+export default ZehraHomeSidebar;

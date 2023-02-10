@@ -1,5 +1,5 @@
 import experienceContent from "../../data/experience";
-
+import Image from "next/image";
 const Experience = () => {
   return (
     <ul>

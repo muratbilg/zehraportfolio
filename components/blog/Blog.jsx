@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import Slider from "react-slick";
 import blogsData from "../../data/blogs";
 import Social from "../Social";
-
+import Image from "next/image";
 Modal.setAppElement("#__next");
 
 const Blog = () => {

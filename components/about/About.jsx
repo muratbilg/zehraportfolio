@@ -2,6 +2,7 @@ import { useState } from "react";
 import Skills from "./Skills";
 import Modal from "react-modal";
 import ModalContent from "./modal/ModalContent";
+import Image from "next/image";
 
 Modal.setAppElement("#__next");
 

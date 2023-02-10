@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import testimonialContent from "../../data/testimonial";
+import Image from "next/image";
 
 export default function Testimonial() {
   var settings = {

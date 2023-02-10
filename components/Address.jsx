@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Address = () => {
   const addressContent = [
     {
@@ -62,7 +64,7 @@ const Address = () => {
         >
           <div className="list_inner">
             <div className="icon">
-              <Image src={item.iconImg} alt="icon" />
+              <Image src={item.iconImg} width="10" height="10" alt="icon" />
             </div>
             {/* End icon */}
             <div className="content">

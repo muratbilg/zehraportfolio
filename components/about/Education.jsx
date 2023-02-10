@@ -1,5 +1,5 @@
 import educationContent from "../../data/education";
-
+import Image from "next/image";
 const Education = () => {
   return (
     <ul>

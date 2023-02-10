@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import Tilt from "react-parallax-tilt";
 import servicesData from "../../data/services";
+import Image from "next/image";
 
 Modal.setAppElement("#__next");
 

@@ -5,7 +5,6 @@ import sidebarContent from "../../data/sidebar";
 import Image from "next/image";
 import logo from "../../public/img/logo/dark.png";
 import logo2 from "../../public/img/logo/light.png";
-
 // sidebar footer bottom content
 const sidebarFooterContent = {
   name: "Zehra",

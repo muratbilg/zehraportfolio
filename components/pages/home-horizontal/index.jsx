@@ -14,7 +14,7 @@ import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
 import Appointment from "../../Appointment";
 
-const zehraHorizontal = () => {
+const ZehraHorizontal = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -232,4 +232,4 @@ const zehraHorizontal = () => {
   );
 };
 
-export default zehraHorizontal;
+export default ZehraHorizontal;

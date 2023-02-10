@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import Slider from "react-slick";
-
+import Image from "next/image";
 const previewDemo = [
   {
     id: 1,
@@ -53,7 +53,7 @@ var settings = {
   ],
 };
 
-const zehraPreview = () => {
+const ZehraPreview = () => {
   useEffect(() => {
     document.querySelector("body").classList.remove("theme-dark");
   }, []);
@@ -152,4 +152,4 @@ const zehraPreview = () => {
   );
 };
 
-export default zehraPreview;
+export default ZehraPreview;

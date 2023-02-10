@@ -4,7 +4,7 @@ import ReactTooltip from "react-tooltip";
 import Slider from "react-slick";
 import Social from "../Social";
 import portfolioData from "../../data/portfolio";
-
+import Image from "next/image";
 Modal.setAppElement("#__next");
 
 const Portfolio = () => {

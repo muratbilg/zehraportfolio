@@ -13,7 +13,7 @@ import Address from "../../Address";
 import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
 
-const zehraHorizontalRtl = () => {
+const ZehraHorizontalRtl = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -188,4 +188,4 @@ const zehraHorizontalRtl = () => {
   );
 };
 
-export default zehraHorizontalRtl;
+export default ZehraHorizontalRtl;
