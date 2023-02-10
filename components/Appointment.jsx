@@ -71,7 +71,7 @@ const Appointment = () => {
         </div>
         {/* End .third */}
 
-        <div className="edina_tm_button">
+        <div className="zehra_tm_button">
           <button type="submit" className="color">
             Submit
           </button>

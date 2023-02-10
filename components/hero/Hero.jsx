@@ -18,7 +18,7 @@ const heroContent = {
 const Hero = () => {
   return (
     //    HERO
-    <div className="edina_tm_hero" id="home">
+    <div className="zehra_tm_hero" id="home">
       <div className="content">
         <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
           <Image src={heroContent.shapeImage} alt="photo" />
@@ -78,7 +78,7 @@ const Hero = () => {
           </div>
           <div>
             <div
-              className="edina_tm_button"
+              className="zehra_tm_button"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="500"

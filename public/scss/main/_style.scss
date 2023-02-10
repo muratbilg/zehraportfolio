@@ -4,20 +4,20 @@
 /*	Author: ib-themes
 /*	This file is made for CURRENT TEMPLATE
 
-01)	EDINA BASE
-02) EDINA MOBILE MENU
-03) EDINA SIDEBAR
-04) EDINA HERO
-05) EDINA ABOUT
-06) EDINA SERVICE
-07) EDINA PORTFOLIO
-08) EDINA TESTIMONIALS
-09) EDINA NEWS
-10) EDINA CONTACT
-11) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
+01)	zehra BASE
+02) zehra MOBILE MENU
+03) zehra SIDEBAR
+04) zehra HERO
+05) zehra ABOUT
+06) zehra SERVICE
+07) zehra PORTFOLIO
+08) zehra TESTIMONIALS
+09) zehra NEWS
+10) zehra CONTACT
+11) zehra MEDIA QUERIES (FOR SMALL DEVIVES)
 
 /*--------------------------------f-------------------*/
-/*	01) EDINA BASE
+/*	01) zehra BASE
 /*---------------------------------------------------*/
 
 html {
@@ -135,20 +135,20 @@ h6 {
   font-size: 16px;
 }
 
-.edina_tm_all_wrap {
+.zehra_tm_all_wrap {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   position: relative;
 }
-.edina_tm_all_wrap,
-.edina_tm_all_wrap * {
+.zehra_tm_all_wrap,
+.zehra_tm_all_wrap * {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.edina_tm_section {
+.zehra_tm_section {
   width: 100%;
   height: auto;
   clear: both;
@@ -324,10 +324,10 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	02) EDINA MOBILE MENU
+/*	02) zehra MOBILE MENU
 /*---------------------------------------------------*/
 
-.edina_tm_mobile_menu {
+.zehra_tm_mobile_menu {
   width: 100%;
   height: auto;
   position: fixed;
@@ -336,12 +336,12 @@ body.dark .loader_line:after {
   display: none;
   z-index: 10;
 }
-.edina_tm_mobile_menu .my_trigger {
+.zehra_tm_mobile_menu .my_trigger {
   line-height: 1;
   position: relative;
   right: -10px;
 }
-.edina_tm_mobile_menu .mobile_menu_inner {
+.zehra_tm_mobile_menu .mobile_menu_inner {
   width: 100%;
   height: auto;
   float: left;
@@ -350,7 +350,7 @@ body.dark .loader_line:after {
   padding: 15px 0px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
 }
-.edina_tm_mobile_menu .mobile_in {
+.zehra_tm_mobile_menu .mobile_in {
   width: 100%;
   height: auto;
   clear: both;
@@ -359,7 +359,7 @@ body.dark .loader_line:after {
   align-items: center;
   justify-content: space-between;
 }
-.edina_tm_mobile_menu .mobile_in .logo img {
+.zehra_tm_mobile_menu .mobile_in .logo img {
   max-width: 100px;
 }
 .my_trigger .hamburger-box {
@@ -381,7 +381,7 @@ body.dark .loader_line:after {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edina_tm_mobile_menu .dropdown {
+.zehra_tm_mobile_menu .dropdown {
   width: 100%;
   height: auto;
   clear: both;
@@ -390,23 +390,23 @@ body.dark .loader_line:after {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
   display: none;
 }
-.edina_tm_mobile_menu .dropdown .dropdown_inner {
+.zehra_tm_mobile_menu .dropdown .dropdown_inner {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding: 25px 0px;
 }
-.edina_tm_mobile_menu .dropdown .dropdown_inner ul {
+.zehra_tm_mobile_menu .dropdown .dropdown_inner ul {
   margin: 0px;
   list-style-type: none;
 }
-.edina_tm_mobile_menu .dropdown .dropdown_inner ul li {
+.zehra_tm_mobile_menu .dropdown .dropdown_inner ul li {
   margin: 0px;
   float: left;
   width: 100%;
 }
-.edina_tm_mobile_menu .dropdown .dropdown_inner ul li a {
+.zehra_tm_mobile_menu .dropdown .dropdown_inner ul li a {
   text-decoration: none;
   color: #000;
   display: inline-block;
@@ -416,10 +416,10 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	03) EDINA SIDEBAR
+/*	03) zehra SIDEBAR
 /*---------------------------------------------------*/
 
-.edina_tm_sidebar {
+.zehra_tm_sidebar {
   width: 320px;
   height: 100vh;
   position: fixed;
@@ -446,7 +446,7 @@ body.dark .loader_line:after {
     width: 240px;
   }
 }
-.edina_tm_sidebar .logo {
+.zehra_tm_sidebar .logo {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -460,19 +460,19 @@ body.dark .loader_line:after {
     padding: 20px;
   }
 }
-.edina_tm_sidebar .logo img,
+.zehra_tm_sidebar .logo img,
 .header-inner .logo img {
   max-width: 120px;
   @media screen and (max-width: 1199px) {
     max-width: 100px;
   }
 }
-.edina_tm_sidebar .logo p {
+.zehra_tm_sidebar .logo p {
   margin-left: 20px;
   font-size: 24px;
   color: #000;
 }
-.edina_tm_sidebar .menu {
+.zehra_tm_sidebar .menu {
   width: 100%;
   height: auto;
   clear: both;
@@ -482,19 +482,19 @@ body.dark .loader_line:after {
     padding: 35px 20px 20px;
   }
 }
-.edina_tm_sidebar .menu ul {
+.zehra_tm_sidebar .menu ul {
   margin: 0px;
   list-style-type: none;
 }
-.edina_tm_sidebar .menu ul li {
+.zehra_tm_sidebar .menu ul li {
   margin: 0px 0px 8px 0px;
   width: 100%;
   float: left;
 }
-.edina_tm_sidebar .menu ul li:last-child {
+.zehra_tm_sidebar .menu ul li:last-child {
   margin-bottom: 0px;
 }
-.edina_tm_sidebar .menu ul li a {
+.zehra_tm_sidebar .menu ul li a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -510,7 +510,7 @@ body.dark .loader_line:after {
     padding: 5px 15px;
   }
 }
-.edina_tm_sidebar .menu ul li a:before {
+.zehra_tm_sidebar .menu ul li a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -526,14 +526,14 @@ body.dark .loader_line:after {
   z-index: -1;
   transition: all 0.3s ease;
 }
-.edina_tm_sidebar .menu ul li a:hover:before,
-.edina_tm_sidebar .menu ul li .list_inner a.active:before {
+.zehra_tm_sidebar .menu ul li a:hover:before,
+.zehra_tm_sidebar .menu ul li .list_inner a.active:before {
   transform: scaleX(1);
   transform-origin: left;
   transition: transform 0.5s;
 }
 
-.edina_tm_sidebar .menu ul li .svg {
+.zehra_tm_sidebar .menu ul li .svg {
   width: 22px;
   height: 22px;
   margin-right: 15px;
@@ -545,14 +545,14 @@ body.dark .loader_line:after {
     margin-right: 10px;
   }
 }
-.edina_tm_sidebar .author {
+.zehra_tm_sidebar .author {
   position: absolute;
   bottom: 0px;
   left: 0px;
   right: 0px;
   border-top: 1px solid #cbd3d9;
 }
-.edina_tm_sidebar .author .inner {
+.zehra_tm_sidebar .author .inner {
   width: 100%;
   height: auto;
   display: flex;
@@ -562,14 +562,14 @@ body.dark .loader_line:after {
     padding: 20px;
   }
 }
-.edina_tm_sidebar .author .image {
+.zehra_tm_sidebar .author .image {
   position: relative;
   width: 50px;
   height: 50px;
   border-radius: 100%;
   display: inline-block;
 }
-.edina_tm_sidebar .author .main {
+.zehra_tm_sidebar .author .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -581,15 +581,15 @@ body.dark .loader_line:after {
   border-radius: 100%;
   border: 1px solid #34495e;
 }
-.edina_tm_sidebar .short {
+.zehra_tm_sidebar .short {
   padding-left: 13px;
 }
-.edina_tm_sidebar .short h3 {
+.zehra_tm_sidebar .short h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
 }
-.edina_tm_sidebar .short a {
+.zehra_tm_sidebar .short a {
   text-decoration: none;
   color: #7e7e7e;
   font-size: 14px;
@@ -604,10 +604,10 @@ body.dark .loader_line:after {
   display: none;
 }
 /*---------------------------------------------------*/
-/*	04) EDINA HERO
+/*	04) zehra HERO
 /*---------------------------------------------------*/
 
-.edina_tm_mainpart {
+.zehra_tm_mainpart {
   width: 100%;
   height: auto;
   clear: both;
@@ -619,7 +619,7 @@ body.dark .loader_line:after {
   }
 }
 
-.edina_tm_hero {
+.zehra_tm_hero {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -629,7 +629,7 @@ body.dark .loader_line:after {
   justify-content: center;
   text-align: center;
 
-  .edina_tm_button {
+  .zehra_tm_button {
     margin-top: 25px;
     a {
       border-radius: 30px;
@@ -640,10 +640,10 @@ body.dark .loader_line:after {
     }
   }
 }
-.edina_tm_hero .content {
+.zehra_tm_hero .content {
   padding: 20px 20px;
 }
-.edina_tm_hero .image {
+.zehra_tm_hero .image {
   display: inline-block;
   width: 300px;
   height: 300px;
@@ -656,7 +656,7 @@ body.dark .loader_line:after {
   transition: all 1s ease;
 }
 
-.edina_tm_hero .image .main {
+.zehra_tm_hero .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -667,7 +667,7 @@ body.dark .loader_line:after {
   background-size: cover;
   border-radius: 100%;
 }
-.edina_tm_hero .image:before {
+.zehra_tm_hero .image:before {
   content: "";
   position: absolute;
   top: -10px;
@@ -677,12 +677,12 @@ body.dark .loader_line:after {
   background-color: #e2e2e2;
   border-radius: 100%;
 }
-.edina_tm_hero .name {
+.zehra_tm_hero .name {
   font-size: 44px;
   line-height: 1.2;
   margin: 10px 0 12px;
 }
-.edina_tm_hero .extra {
+.zehra_tm_hero .extra {
   position: relative;
   opacity: 1;
   visibility: visible;
@@ -691,7 +691,7 @@ body.dark .loader_line:after {
   transition: all 1s ease;
 }
 
-.edina_tm_hero .text {
+.zehra_tm_hero .text {
   max-width: 600px;
   margin: 0px auto 32px auto;
   font-size: 17px;
@@ -700,16 +700,16 @@ body.dark .loader_line:after {
     font-size: 15px;
   }
 }
-.edina_tm_hero .social ul {
+.zehra_tm_hero .social ul {
   margin: 0px;
   list-style-type: none;
   list-style: none;
 }
-.edina_tm_hero .social ul li {
+.zehra_tm_hero .social ul li {
   margin: 0px;
   display: inline-block;
 }
-.edina_tm_hero .social ul li a {
+.zehra_tm_hero .social ul li a {
   text-decoration: none;
   color: #e7e7e7;
   display: inline-block;
@@ -730,7 +730,7 @@ body.dark .loader_line:after {
     height: 22px;
   }
 }
-.edina_tm_hero .social ul li a:after {
+.zehra_tm_hero .social ul li a:after {
   position: absolute;
   content: "";
   width: 1px;
@@ -739,10 +739,10 @@ body.dark .loader_line:after {
   top: 0px;
   right: 0px;
 }
-.edina_tm_hero .social ul li:last-child a:after {
+.zehra_tm_hero .social ul li:last-child a:after {
   display: none;
 }
-.edina_tm_hero .social ul li .svg {
+.zehra_tm_hero .social ul li .svg {
   width: 19px;
   height: 19px;
 
@@ -754,10 +754,10 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	05) EDINA ABOUT
+/*	05) zehra ABOUT
 /*---------------------------------------------------*/
 
-.edina_tm_about {
+.zehra_tm_about {
   width: 100%;
   min-height: 100vh;
   clear: both;
@@ -768,11 +768,11 @@ body.dark .loader_line:after {
     padding-top: 90px;
   }
 }
-.edina_tm_about .about_title {
+.zehra_tm_about .about_title {
   width: 100%;
   float: left;
 }
-.edina_tm_about .about_title h3 {
+.zehra_tm_about .about_title h3 {
   font-size: 45px;
   font-weight: 700;
   line-height: 1;
@@ -781,7 +781,7 @@ body.dark .loader_line:after {
   color: black;
   font-weight: 500;
 }
-.edina_tm_about .color {
+.zehra_tm_about .color {
   border-radius: 6px;
   padding: 13px 30px;
   background: #fff;
@@ -799,42 +799,42 @@ body.dark .loader_line:after {
     color: #fff;
   }
 }
-.edina_tm_about .content {
+.zehra_tm_about .content {
   width: 100%;
   height: auto;
   clear: both;
   display: flex;
   padding-top: 30px;
 }
-.edina_tm_about .leftpart {
+.zehra_tm_about .leftpart {
   width: 50%;
 }
-.edina_tm_about .leftpart .info {
+.zehra_tm_about .leftpart .info {
   width: 100%;
   float: left;
   margin-bottom: 55px;
 }
-.edina_tm_about .leftpart .info h3 {
+.zehra_tm_about .leftpart .info h3 {
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 15px;
 }
-.edina_tm_about .leftpart .info h3 span {
+.zehra_tm_about .leftpart .info h3 span {
   font-weight: 600;
 }
-.edina_tm_about .leftpart .info p {
+.zehra_tm_about .leftpart .info p {
   max-width: 90%;
 }
-.edina_tm_about .my_skills {
+.zehra_tm_about .my_skills {
   width: 100%;
   float: left;
 }
-.edina_tm_about .my_skills .title {
+.zehra_tm_about .my_skills .title {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
 }
-.edina_tm_about .dodo_progress {
+.zehra_tm_about .dodo_progress {
   width: 100%;
   display: flex;
   padding-top: 40px;
@@ -845,10 +845,10 @@ body.dark .loader_line:after {
     margin: 0;
   }
 }
-.edina_tm_about .desc {
+.zehra_tm_about .desc {
   max-width: 90%;
 }
-.edina_tm_about .wrapper .progress_inner {
+.zehra_tm_about .wrapper .progress_inner {
   width: 50%;
   height: 5rem;
   padding: 0 20px;
@@ -857,7 +857,7 @@ body.dark .loader_line:after {
     padding: 0;
   }
 }
-.edina_tm_about .wrapper .right {
+.zehra_tm_about .wrapper .right {
   width: 50%;
   padding-left: 20px;
 }
@@ -926,19 +926,19 @@ body.dark .loader_line:after {
   }
 }
 
-.edina_tm_about .rightpart {
+.zehra_tm_about .rightpart {
   width: 50%;
   padding-left: 200px;
 }
-.edina_tm_about .rightpart .image {
+.zehra_tm_about .rightpart .image {
   position: relative;
 }
-.edina_tm_about .rightpart .image img {
+.zehra_tm_about .rightpart .image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
-.edina_tm_about .rightpart .image .main {
+.zehra_tm_about .rightpart .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -949,7 +949,7 @@ body.dark .loader_line:after {
   background-size: cover;
   border-radius: 10px;
 }
-.edina_tm_about .experience {
+.zehra_tm_about .experience {
   position: absolute;
   bottom: -50px;
   left: -50px;
@@ -959,7 +959,7 @@ body.dark .loader_line:after {
   border-radius: 100%;
   background-color: #c45b5b;
 }
-.edina_tm_about .experience .info {
+.zehra_tm_about .experience .info {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -968,12 +968,12 @@ body.dark .loader_line:after {
   transform: translate(-50%, -50%);
   padding: 10px;
 }
-.edina_tm_about .experience .info h3 {
+.zehra_tm_about .experience .info h3 {
   font-size: 45px;
   font-weight: 700;
   color: #fff;
 }
-.edina_tm_about .experience .info span {
+.zehra_tm_about .experience .info span {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
@@ -1001,7 +1001,7 @@ body.dark .loader_line:after {
       width: 320px;
     }
   }
-  .edina_tm_modalbox .description_wrap {
+  .zehra_tm_modalbox .description_wrap {
     padding: 0 50px;
     @media (max-width: 460px) {
       padding: 0 20px;
@@ -1009,7 +1009,7 @@ body.dark .loader_line:after {
   }
 }
 .about-popup-wrapper {
-  .edina_tm_button {
+  .zehra_tm_button {
     margin-top: 15px;
     a {
       border-radius: 30px;
@@ -1212,25 +1212,25 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	06) EDINA SERVICE
+/*	06) zehra SERVICE
 /*---------------------------------------------------*/
 
-.edina_tm_title {
+.zehra_tm_title {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edina_tm_title h3 {
+.zehra_tm_title h3 {
   font-size: 45px;
   font-weight: 800;
   margin-bottom: 25px;
   line-height: 1;
 }
-.edina_tm_title p {
+.zehra_tm_title p {
   max-width: 600px;
 }
-.edina_tm_services {
+.zehra_tm_services {
   width: 100%;
   min-height: 100vh;
   clear: both;
@@ -1241,20 +1241,20 @@ body.dark .loader_line:after {
     padding: 90px 0px 60px 0px;
   }
 }
-.edina_tm_services .service_list {
+.zehra_tm_services .service_list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding-top: 60px;
 }
-.edina_tm_services ul {
+.zehra_tm_services ul {
   margin: 0px 0px 0px -30px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
-.edina_tm_services ul li {
+.zehra_tm_services ul li {
   margin: 0px 0px 30px 0px;
   width: 25%;
   padding-left: 30px;
@@ -1262,7 +1262,7 @@ body.dark .loader_line:after {
   cursor: pointer;
   position: relative;
 }
-.edina_tm_services ul li .list_inner {
+.zehra_tm_services ul li .list_inner {
   width: 100%;
   height: 100%;
   clear: both;
@@ -1310,37 +1310,37 @@ body.dark .loader_line:after {
     transform: none;
   }
 }
-.edina_tm_services ul li .list_inner:hover {
+.zehra_tm_services ul li .list_inner:hover {
   .svg,
   .service_title,
   .learn_more {
     animation: slideLeft 0.7s ease-in-out 0s 1 normal none running !important;
   }
 }
-.edina_tm_services ul li .svg {
+.zehra_tm_services ul li .svg {
   width: 50px;
   height: 50px;
   margin-bottom: 25px;
   transition: all 0.3s ease-in-out;
 }
-.edina_tm_services ul li .list_inner:hover .svg {
+.zehra_tm_services ul li .list_inner:hover .svg {
   color: #fff;
   filter: invert(1);
 }
-.edina_tm_services ul li .list_inner:hover .svg.custom {
+.zehra_tm_services ul li .list_inner:hover .svg.custom {
   stroke: #fff;
 }
-.edina_tm_services ul li h3 {
+.zehra_tm_services ul li h3 {
   font-weight: 600;
   font-size: 24px;
   color: #1a1a1a;
   margin-bottom: 20px;
   transition: all 0.3s ease;
 }
-.edina_tm_services ul li .list_inner:hover h3 {
+.zehra_tm_services ul li .list_inner:hover h3 {
   color: #fff;
 }
-.edina_tm_services ul li .learn_more {
+.zehra_tm_services ul li .learn_more {
   text-decoration: none;
   color: #7e7e7e;
   font-size: 18px;
@@ -1353,7 +1353,7 @@ body.dark .loader_line:after {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edina_tm_services ul li .learn_more span {
+.zehra_tm_services ul li .learn_more span {
   position: absolute;
   display: inline-block;
   width: 10px;
@@ -1366,7 +1366,7 @@ body.dark .loader_line:after {
 
   transition: all 0.7s ease;
 }
-.edina_tm_services ul li .learn_more span:before {
+.zehra_tm_services ul li .learn_more span:before {
   position: absolute;
   content: "";
   width: 6px;
@@ -1378,7 +1378,7 @@ body.dark .loader_line:after {
   border-radius: 50px;
   transition: all 0.7s ease;
 }
-.edina_tm_services ul li .learn_more span:after {
+.zehra_tm_services ul li .learn_more span:after {
   position: absolute;
   content: "";
   width: 6px;
@@ -1390,18 +1390,18 @@ body.dark .loader_line:after {
   border-radius: 50px;
   transition: all 0.7s ease;
 }
-.edina_tm_services ul li .list_inner:hover .learn_more span {
+.zehra_tm_services ul li .list_inner:hover .learn_more span {
   width: 30px;
   background-color: #fff;
 }
-.edina_tm_services ul li .list_inner:hover .learn_more span:before,
-.edina_tm_services ul li .list_inner:hover .learn_more span:after {
+.zehra_tm_services ul li .list_inner:hover .learn_more span:before,
+.zehra_tm_services ul li .list_inner:hover .learn_more span:after {
   background-color: #fff;
 }
-.edina_tm_services ul li .list_inner:hover .learn_more {
+.zehra_tm_services ul li .list_inner:hover .learn_more {
   color: #fff;
 }
-.edina_tm_full_link {
+.zehra_tm_full_link {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1410,7 +1410,7 @@ body.dark .loader_line:after {
   z-index: 5;
 }
 
-.edina_tm_modalbox .description_wrap {
+.zehra_tm_modalbox .description_wrap {
   position: relative;
   width: 100%;
   height: 100%;
@@ -1419,43 +1419,43 @@ body.dark .loader_line:after {
   padding: 50px;
   overflow-y: scroll;
 }
-.edina_tm_services .popup_informations {
+.zehra_tm_services .popup_informations {
   opacity: 0;
   visibility: hidden;
   position: absolute;
   z-index: -11;
   display: none;
 }
-.edina_tm_modalbox .service_title {
+.zehra_tm_modalbox .service_title {
   display: none;
 }
-.edina_tm_modalbox .description_wrap .svg {
+.zehra_tm_modalbox .description_wrap .svg {
   display: none;
 }
-.edina_tm_modalbox .description_wrap .learn_more {
+.zehra_tm_modalbox .description_wrap .learn_more {
   display: none;
 }
-.edina_tm_modalbox .description_wrap .edina_tm_full_link {
+.zehra_tm_modalbox .description_wrap .zehra_tm_full_link {
   display: none;
 }
-.edina_tm_modalbox .popup_informations {
+.zehra_tm_modalbox .popup_informations {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edina_tm_modalbox .popup_informations .image {
+.zehra_tm_modalbox .popup_informations .image {
   position: relative;
   max-height: 450px;
   margin-bottom: 50px;
   overflow: hidden;
 }
-.edina_tm_modalbox .popup_informations .image img {
+.zehra_tm_modalbox .popup_informations .image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
-.edina_tm_modalbox .popup_informations .image .main {
+.zehra_tm_modalbox .popup_informations .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1465,34 +1465,34 @@ body.dark .loader_line:after {
   background-position: center;
   background-size: cover;
 }
-.edina_tm_modalbox .popup_informations h3 {
+.zehra_tm_modalbox .popup_informations h3 {
   color: #0f172a;
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.edina_tm_modalbox .popup_informations p {
+.zehra_tm_modalbox .popup_informations p {
   margin-bottom: 30px;
   font-size: 16px;
 }
-.edina_tm_modalbox .in_list {
+.zehra_tm_modalbox .in_list {
   width: 100%;
   float: left;
   margin-bottom: 30px;
   padding-left: 20px;
 }
-.edina_tm_modalbox .in_list ul {
+.zehra_tm_modalbox .in_list ul {
   margin: 0px;
   list-style-type: none;
 }
-.edina_tm_modalbox .in_list ul li {
+.zehra_tm_modalbox .in_list ul li {
   margin: 0px 0px 15px 0px;
   width: 100%;
   float: left;
   position: relative;
   padding-left: 20px;
 }
-.edina_tm_modalbox .in_list ul li:before {
+.zehra_tm_modalbox .in_list ul li:before {
   position: absolute;
   content: "";
   width: 5px;
@@ -1502,15 +1502,15 @@ body.dark .loader_line:after {
   left: 0px;
   top: 13px;
 }
-.edina_tm_modalbox .in_list ul li:last-child {
+.zehra_tm_modalbox .in_list ul li:last-child {
   margin-bottom: 0px;
 }
-.edina_tm_modalbox .in_list ul li p {
+.zehra_tm_modalbox .in_list ul li p {
   margin-bottom: 0px;
 }
 
 /*---------------------------------------------------*/
-/*	07) EDINA PORTFOLIO
+/*	07) zehra PORTFOLIO
 /*---------------------------------------------------*/
 
 .my_carousel {
@@ -1549,7 +1549,7 @@ body.dark .loader_line:after {
     }
   }
 }
-.edina_tm_news {
+.zehra_tm_news {
   .my_carousel ul li .image {
     @media screen and (max-width: 1900px) {
       height: 235px;
@@ -1725,10 +1725,10 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	08) EDINA TESTIMONIALS
+/*	08) zehra TESTIMONIALS
 /*---------------------------------------------------*/
 
-.edina_tm_testimonials {
+.zehra_tm_testimonials {
   width: 100%;
   min-height: 100vh;
   clear: both;
@@ -1746,22 +1746,22 @@ body.dark .loader_line:after {
 .slick-dots li {
   padding: 0 15px;
 }
-.edina_tm_testimonials .list {
+.zehra_tm_testimonials .list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding-top: 60px;
 }
-.edina_tm_testimonials .list ul {
+.zehra_tm_testimonials .list ul {
   margin: 0px -15px;
   list-style-type: none;
 }
-.edina_tm_testimonials .list ul li {
+.zehra_tm_testimonials .list ul li {
   margin: 0px;
   padding: 0 15px;
 }
-.edina_tm_testimonials .list ul li .list_inner {
+.zehra_tm_testimonials .list ul li .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -1775,23 +1775,23 @@ body.dark .loader_line:after {
     margin-bottom: 10px;
   }
 }
-.edina_tm_testimonials .list .details {
+.zehra_tm_testimonials .list .details {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
 }
-.edina_tm_testimonials .list .author {
+.zehra_tm_testimonials .list .author {
   display: flex;
   align-items: center;
 }
-.edina_tm_testimonials .list .image {
+.zehra_tm_testimonials .list .image {
   position: relative;
   width: 120px;
   height: 120px;
 }
-.edina_tm_testimonials .list .image .main {
+.zehra_tm_testimonials .list .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1802,27 +1802,27 @@ body.dark .loader_line:after {
   background-size: cover;
   border-radius: 6px;
 }
-.edina_tm_testimonials .list .short {
+.zehra_tm_testimonials .list .short {
   padding-left: 30px;
   @media screen and (max-width: 991px) {
     padding-left: 15px;
   }
 }
-.edina_tm_testimonials .list .short h3 {
+.zehra_tm_testimonials .list .short h3 {
   font-size: 24px;
   font-weight: 500;
 }
-.edina_tm_testimonials .list .short span {
+.zehra_tm_testimonials .list .short span {
   font-size: 16px;
   font-weight: 400;
 }
-.edina_tm_testimonials .list .text p {
+.zehra_tm_testimonials .list .text p {
   font-size: 18px;
 }
-.edina_tm_testimonials .owl-theme .owl-nav.disabled + .owl-dots {
+.zehra_tm_testimonials .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 33px;
 }
-.edina_tm_testimonials .owl-theme .owl-dots .owl-dot span {
+.zehra_tm_testimonials .owl-theme .owl-dots .owl-dot span {
   margin: 0px 10px 0px 0px;
   width: 14px;
   height: 14px;
@@ -1835,22 +1835,22 @@ body.dark .loader_line:after {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edina_tm_testimonials .owl-theme .owl-dots .owl-dot.active span {
+.zehra_tm_testimonials .owl-theme .owl-dots .owl-dot.active span {
   background-color: transparent;
   border-color: #34495e;
   width: 16px;
   height: 16px;
 }
-.edina_tm_testimonials .svg {
+.zehra_tm_testimonials .svg {
   width: 80px;
   height: 80px;
 }
 
 /*---------------------------------------------------*/
-/*	09) EDINA NEWS
+/*	09) zehra NEWS
 /*---------------------------------------------------*/
 
-.edina_tm_news {
+.zehra_tm_news {
   width: 100%;
   min-height: 100vh;
   clear: both;
@@ -1872,22 +1872,22 @@ body.dark .loader_line:after {
   }
 }
 
-.edina_tm_news .news_inner {
+.zehra_tm_news .news_inner {
   clear: both;
   float: left;
   padding-top: 100px;
 }
-.edina_tm_news ul li .news_details {
+.zehra_tm_news ul li .news_details {
   width: 100%;
   float: left;
   padding-top: 9px;
 }
-.edina_tm_news ul li .news_details span {
+.zehra_tm_news ul li .news_details span {
   font-size: 16px;
   display: inline-block;
   padding-bottom: 5px;
 }
-.edina_tm_news ul li .news_details span a {
+.zehra_tm_news ul li .news_details span a {
   text-decoration: none;
   color: #7e7e7e;
   position: relative;
@@ -1899,7 +1899,7 @@ body.dark .loader_line:after {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edina_tm_news ul li .news_details span a:before {
+.zehra_tm_news ul li .news_details span a:before {
   position: relative;
   content: ".";
   font-size: 40px;
@@ -1907,10 +1907,10 @@ body.dark .loader_line:after {
   color: #7e7e7e;
   padding: 0px 5px;
 }
-.edina_tm_news ul li .news_details .title {
+.zehra_tm_news ul li .news_details .title {
   line-height: 1.2;
 }
-.edina_tm_news ul li .news_details .title {
+.zehra_tm_news ul li .news_details .title {
   text-decoration: none;
   color: #34495e;
   font-size: 22px;
@@ -1918,12 +1918,12 @@ body.dark .loader_line:after {
   transition: all 0.3s ease;
 }
 
-.edina_tm_modalbox .details {
+.zehra_tm_modalbox .details {
   width: 100%;
   float: left;
   margin-bottom: 20px;
 }
-.edina_tm_modalbox .description_wrap .image {
+.zehra_tm_modalbox .description_wrap .image {
   position: relative;
   height: 450px;
   margin-bottom: 20px;
@@ -1933,11 +1933,11 @@ body.dark .loader_line:after {
     height: 240px;
   }
 }
-.edina_tm_modalbox .description_wrap .image img {
+.zehra_tm_modalbox .description_wrap .image img {
   min-width: 100%;
   opacity: 0;
 }
-.edina_tm_modalbox .description_wrap .image .main {
+.zehra_tm_modalbox .description_wrap .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1947,24 +1947,24 @@ body.dark .loader_line:after {
   background-position: center;
   background-size: cover;
 }
-.edina_tm_modalbox .news_details {
+.zehra_tm_modalbox .news_details {
   margin-bottom: 20px;
 }
-.edina_tm_modalbox .news_details .title {
+.zehra_tm_modalbox .news_details .title {
   font-weight: 600;
   font-size: 23px;
   margin-bottom: 9px;
 }
-.edina_tm_modalbox .news_details .title a {
+.zehra_tm_modalbox .news_details .title a {
   text-decoration: none;
   color: #1a1a1a;
 }
-.edina_tm_modalbox .news_details span {
+.zehra_tm_modalbox .news_details span {
   font-size: 16px;
   display: inline-block;
   margin-bottom: 5px;
 }
-.edina_tm_modalbox .news_details span a {
+.zehra_tm_modalbox .news_details span a {
   text-decoration: none;
   color: #7e7e7e;
   position: relative;
@@ -1976,7 +1976,7 @@ body.dark .loader_line:after {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edina_tm_modalbox .news_details span a:before {
+.zehra_tm_modalbox .news_details span a:before {
   position: relative;
   content: ".";
   font-size: 40px;
@@ -1984,7 +1984,7 @@ body.dark .loader_line:after {
   color: #7e7e7e;
   padding: 0px 5px;
 }
-.edina_tm_news .main_content {
+.zehra_tm_news .main_content {
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -1994,25 +1994,25 @@ body.dark .loader_line:after {
 body.modal {
   overflow-y: hidden;
 }
-.edina_tm_modalbox .main_content {
+.zehra_tm_modalbox .main_content {
   width: 100%;
   float: left;
 }
-.edina_tm_modalbox .main_content .descriptions {
+.zehra_tm_modalbox .main_content .descriptions {
   width: 100%;
   float: left;
   margin-bottom: 15px;
 }
-.edina_tm_modalbox .main_content .descriptions .bigger {
+.zehra_tm_modalbox .main_content .descriptions .bigger {
   color: #888;
   font-size: 20px;
   margin-bottom: 31px;
 }
-.edina_tm_modalbox .main_content .descriptions p {
+.zehra_tm_modalbox .main_content .descriptions p {
   margin-bottom: 22px;
   font-size: 16px;
 }
-.edina_tm_modalbox .main_content .quotebox {
+.zehra_tm_modalbox .main_content .quotebox {
   width: 100%;
   height: auto;
   clear: both;
@@ -2021,7 +2021,7 @@ body.modal {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.edina_tm_modalbox .main_content .quotebox p {
+.zehra_tm_modalbox .main_content .quotebox p {
   font-size: 20px;
   font-style: italic;
   margin-bottom: 23px;
@@ -2031,10 +2031,10 @@ body.modal {
 }
 
 /*---------------------------------------------------*/
-/*	10) EDINA CONTACT
+/*	10) zehra CONTACT
 /*---------------------------------------------------*/
 
-.edina_tm_contact {
+.zehra_tm_contact {
   width: 100%;
   min-height: 100vh;
   clear: both;
@@ -2071,7 +2071,7 @@ body.modal {
     }
   }
 }
-.edina_tm_contact .extra_info {
+.zehra_tm_contact .extra_info {
   width: 100%;
   height: auto;
   clear: both;
@@ -2079,19 +2079,19 @@ body.modal {
   padding-top: 60px;
   margin-bottom: 30px;
 }
-.edina_tm_contact .extra_info .wrapper {
+.zehra_tm_contact .extra_info .wrapper {
   margin: 0px 0px 0px -30px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
-.edina_tm_contact .extra_info .wrapper > li {
+.zehra_tm_contact .extra_info .wrapper > li {
   margin: 0px 0px 30px 0px;
   flex: 0 0 auto;
   width: 33.33333333%;
   padding-left: 30px;
 }
-.edina_tm_contact .extra_info .wrapper > li .list_inner {
+.zehra_tm_contact .extra_info .wrapper > li .list_inner {
   display: flex;
   align-items: flex-start;
   background-color: #fff;
@@ -2101,74 +2101,74 @@ body.modal {
     padding: 20px;
   }
 }
-.edina_tm_contact .extra_info .in {
+.zehra_tm_contact .extra_info .in {
   margin: 0px;
   list-style-type: none;
 }
-.edina_tm_contact .extra_info .in li {
+.zehra_tm_contact .extra_info .in li {
   margin: 0px;
   width: 100%;
   float: left;
   font-size: 16px;
 }
-.edina_tm_contact .extra_info .in li :last-child {
+.zehra_tm_contact .extra_info .in li :last-child {
   margin-bottom: 0px;
 }
-.edina_tm_contact .extra_info h3 {
+.zehra_tm_contact .extra_info h3 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 5px;
 }
-.edina_tm_contact .extra_info a {
+.zehra_tm_contact .extra_info a {
   text-decoration: none;
   color: #7e7e7e;
 }
-.edina_tm_contact .mainpart {
+.zehra_tm_contact .mainpart {
   width: 100%;
   height: auto;
   clear: both;
   display: flex;
 }
-.edina_tm_contact .mainpart .left {
+.zehra_tm_contact .mainpart .left {
   width: 50%;
   background-color: #fff;
   padding: 50px 45px 55px 45px;
   margin-right: 30px;
   border-radius: 6px;
 }
-.edina_tm_contact .mainpart .left .title {
+.zehra_tm_contact .mainpart .left .title {
   width: 100%;
   float: left;
   margin-bottom: 14px;
 }
-.edina_tm_contact .mainpart .left .title p {
+.zehra_tm_contact .mainpart .left .title p {
   font-size: 25px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
-.edina_tm_contact .mainpart .left .title span {
+.zehra_tm_contact .mainpart .left .title span {
   font-weight: 600;
   color: #1a1a1a;
 }
-.edina_tm_contact .fields {
+.zehra_tm_contact .fields {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edina_tm_contact .first_row {
+.zehra_tm_contact .first_row {
   width: 100%;
   margin-bottom: 60px;
 }
-.edina_tm_contact .second {
+.zehra_tm_contact .second {
   width: 100%;
   margin-bottom: 60px;
 }
-.edina_tm_contact .third {
+.zehra_tm_contact .third {
   width: 100%;
   margin-bottom: 30px;
 }
-.edina_tm_contact input {
+.zehra_tm_contact input {
   width: 100%;
   height: 50px;
   border: none;
@@ -2180,12 +2180,12 @@ body.modal {
   font-family: "Poppins";
   padding-left: 0px !important;
 }
-.edina_tm_contact input:focus {
+.zehra_tm_contact input:focus {
   outline: none;
   border-bottom-color: #0f172a;
   background-color: transparent;
 }
-.edina_tm_contact textarea {
+.zehra_tm_contact textarea {
   width: 100%;
   border: none;
   border-bottom: 1px solid #cbd3d9;
@@ -2198,41 +2198,41 @@ body.modal {
   resize: none;
   padding-left: 0px !important;
 }
-.edina_tm_contact textarea:focus {
+.zehra_tm_contact textarea:focus {
   outline: none;
   border-bottom-color: #0f172a;
   background-color: transparent;
 }
-.edina_tm_contact .empty_notice {
+.zehra_tm_contact .empty_notice {
   color: #f52225;
   margin-bottom: 7px;
   display: none;
   text-align: left;
   font-weight: 500;
 }
-.edina_tm_contact .contact_error {
+.zehra_tm_contact .contact_error {
   color: #f52225;
   text-align: left;
   font-weight: 500;
 }
-.edina_tm_contact .returnmessage {
+.zehra_tm_contact .returnmessage {
   color: #3a00ff;
   margin-bottom: 7px;
   text-align: left;
   font-weight: 500;
 }
-.edina_tm_contact .edina_tm_button button {
+.zehra_tm_contact .zehra_tm_button button {
   border-radius: 6px;
   padding: 11px 33px;
   background: #fff;
 }
-.edina_tm_button {
+.zehra_tm_button {
   width: 100%;
   float: left;
   clear: both;
 }
-.edina_tm_button a,
-.edina_tm_button button {
+.zehra_tm_button a,
+.zehra_tm_button button {
   text-decoration: none;
   color: #1a1a1a;
   font-weight: 500;
@@ -2246,17 +2246,17 @@ body.modal {
     font-size: 16px;
   }
 }
-.edina_tm_button a:hover,
-.edina_tm_contact .edina_tm_button button:hover {
+.zehra_tm_button a:hover,
+.zehra_tm_contact .zehra_tm_button button:hover {
   color: #fff;
   background-color: #1a1a1a;
   border-color: #1a1a1a;
 }
-.edina_tm_contact .right {
+.zehra_tm_contact .right {
   width: 50%;
   margin-left: 30px;
 }
-.edina_tm_contact .right .google-map {
+.zehra_tm_contact .right .google-map {
   border: 5px solid #fff;
   border-radius: 6px;
   height: 100%;
@@ -2278,20 +2278,20 @@ body.modal {
 /*	 BEKER INTRO
 /*---------------------------------------------------*/
 
-.edina_tm_intro {
+.zehra_tm_intro {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edina_tm_intro .main_title {
+.zehra_tm_intro .main_title {
   width: 100%;
   float: left;
 }
-.edina_tm_intro .main_title img {
+.zehra_tm_intro .main_title img {
   margin-bottom: 15px;
 }
-.edina_tm_intro .main_title p {
+.zehra_tm_intro .main_title p {
   font-size: 22px;
   font-weight: 500;
   color: #323232;
@@ -2299,7 +2299,7 @@ body.modal {
     font-size: 20px;
   }
 }
-.edina_tm_intro .hero .content p {
+.zehra_tm_intro .hero .content p {
   font-size: 30px;
   font-weight: 500;
   color: #fff;
@@ -2308,7 +2308,7 @@ body.modal {
 a {
   transition: all 0.3s ease;
 }
-.edina_tm_intro .edina_tm_button a {
+.zehra_tm_intro .zehra_tm_button a {
   color: #fff;
   border-color: #1473e6;
   background-color: #1473e6;
@@ -2316,7 +2316,7 @@ a {
     transform: translateY(-5px);
   }
 }
-.edina_tm_intro .mainpart {
+.zehra_tm_intro .mainpart {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -2329,25 +2329,25 @@ a {
     height: auto;
   }
 }
-.edina_tm_intro .main_title {
+.zehra_tm_intro .main_title {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   text-align: center;
 }
-.edina_tm_intro .main_title span {
+.zehra_tm_intro .main_title span {
   color: #1473e6;
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
   margin-bottom: 6px;
 }
-.edina_tm_intro .main_title h3 {
+.zehra_tm_intro .main_title h3 {
   font-size: 60px;
   font-weight: 700;
 }
-.edina_tm_intro .demo_list {
+.zehra_tm_intro .demo_list {
   width: 100%;
   height: auto;
   clear: both;
@@ -2357,10 +2357,10 @@ a {
     margin-top: 60px;
   }
 }
-.edina_tm_intro .demo_list ul {
+.zehra_tm_intro .demo_list ul {
   list-style-type: none;
 }
-.edina_tm_intro .demo_list ul li {
+.zehra_tm_intro .demo_list ul li {
   margin: 0px 0px 80px 0px;
   width: 50%;
   float: left;
@@ -2374,7 +2374,7 @@ a {
     }
   }
 }
-.edina_tm_intro .container {
+.zehra_tm_intro .container {
   max-width: 1400px;
   .slick-slide {
     padding: 0 30px;
@@ -2397,7 +2397,7 @@ a {
 .preview-sticker .logo {
   filter: invert(1);
 }
-.edina_tm_intro .demo_list ul li .list_inner {
+.zehra_tm_intro .demo_list ul li .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -2405,12 +2405,12 @@ a {
   position: relative;
   min-height: 250px;
 }
-.edina_tm_intro .demo_list ul li .list_inner img {
+.zehra_tm_intro .demo_list ul li .list_inner img {
   border-radius: 6px;
   background: #efefef;
   padding: 15px;
 }
-.edina_tm_intro .demo_list ul li .list_inner h3 {
+.zehra_tm_intro .demo_list ul li .list_inner h3 {
   font-size: 24px;
   font-weight: 600;
   padding-top: 30px;
@@ -2419,7 +2419,7 @@ a {
     padding-top: 20px;
   }
 }
-.edina_tm_intro .go_purchase {
+.zehra_tm_intro .go_purchase {
   width: 100%;
   height: auto;
   clear: both;
@@ -2430,15 +2430,15 @@ a {
   @media screen and (max-width: 767px) {
     padding: 100px 20px;
   }
-  .edina_tm_button a {
+  .zehra_tm_button a {
     border-color: #1473e6 !important;
   }
 }
-.edina_tm_intro .go_purchase h6 {
+.zehra_tm_intro .go_purchase h6 {
   color: #efefef;
   margin-bottom: 10px;
 }
-.edina_tm_intro .go_purchase h3 {
+.zehra_tm_intro .go_purchase h3 {
   color: #fff;
   max-width: 600px;
   font-weight: 600;
@@ -2453,7 +2453,7 @@ a {
     color: #1473e6;
   }
 }
-.edina_tm_intro .copyright {
+.zehra_tm_intro .copyright {
   width: 100%;
   height: auto;
   clear: both;
@@ -2462,11 +2462,11 @@ a {
   text-align: center;
   padding: 15px 20px;
 }
-.edina_tm_intro .copyright p {
+.zehra_tm_intro .copyright p {
   font-size: 14px;
   color: #faf9fd;
 }
-.edina_tm_intro .copyright p a {
+.zehra_tm_intro .copyright p a {
   color: #fff;
   text-decoration: none;
 
@@ -2476,61 +2476,61 @@ a {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edina_tm_intro .copyright p a:hover {
+.zehra_tm_intro .copyright p a:hover {
   color: #1473e6;
 }
 
 /*---------------------------------------------------*/
-/*	11) EDINA MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	11) zehra MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
   .container {
     max-width: 1170px;
   }
-  .edina_tm_hero .image {
+  .zehra_tm_hero .image {
     width: 250px;
     height: 250px;
   }
 
-  .edina_tm_about .rightpart {
+  .zehra_tm_about .rightpart {
     padding-left: 120px;
   }
-  .edina_tm_about .experience {
+  .zehra_tm_about .experience {
     width: 250px;
     height: 250px;
   }
-  .edina_tm_about .experience .info h3 {
+  .zehra_tm_about .experience .info h3 {
     font-size: 35px;
   }
-  .edina_tm_about .experience .info span {
+  .zehra_tm_about .experience .info span {
     font-size: 19px;
   }
 
-  .edina_tm_services ul li .list_inner {
+  .zehra_tm_services ul li .list_inner {
     padding-right: 40px;
   }
-  .edina_tm_services ul li h3 {
+  .zehra_tm_services ul li h3 {
     font-size: 22px;
   }
-  .edina_tm_testimonials .list .short h3 {
+  .zehra_tm_testimonials .list .short h3 {
     font-size: 19px;
   }
-  .edina_tm_testimonials .list .short span {
+  .zehra_tm_testimonials .list .short span {
     font-size: 16px;
   }
-  .edina_tm_testimonials .svg {
+  .zehra_tm_testimonials .svg {
     width: 60px;
     height: 60px;
   }
-  .edina_tm_testimonials .list .image {
+  .zehra_tm_testimonials .list .image {
     width: 100px;
     height: 100px;
   }
-  .edina_tm_testimonials .list .text p {
+  .zehra_tm_testimonials .list .text p {
     font-size: 18px;
   }
-  .edina_tm_contact .mainpart .left .title p {
+  .zehra_tm_contact .mainpart .left .title p {
     font-size: 20px;
     @media (max-width: 575px) {
       br {
@@ -2541,76 +2541,76 @@ a {
 }
 
 @media (max-width: 1199px) {
-  .edina_tm_mainpart {
+  .zehra_tm_mainpart {
     padding-left: 0;
   }
 }
 @media (max-width: 1040px) {
-  .edina_tm_mobile_menu {
+  .zehra_tm_mobile_menu {
     display: block;
   }
 
-  .edina_tm_mainpart {
+  .zehra_tm_mainpart {
     padding-left: 0px;
   }
-  body .edina_tm_mainpart {
+  body .zehra_tm_mainpart {
     padding-left: 0px;
   }
-  .edina_tm_about .content {
+  .zehra_tm_about .content {
     flex-direction: column;
     align-items: baseline;
   }
-  .edina_tm_about .leftpart .info p {
+  .zehra_tm_about .leftpart .info p {
     max-width: 100%;
   }
-  .edina_tm_about .desc {
+  .zehra_tm_about .desc {
     max-width: 100%;
   }
-  .edina_tm_about .leftpart {
+  .zehra_tm_about .leftpart {
     width: 100%;
     margin-bottom: 0;
     order: 2;
   }
-  .edina_tm_about .rightpart {
+  .zehra_tm_about .rightpart {
     width: 100%;
     padding-left: 0px;
     margin-bottom: 80px;
   }
-  .edina_tm_about .experience {
+  .zehra_tm_about .experience {
     left: 50px;
   }
-  .edina_tm_services ul li {
+  .zehra_tm_services ul li {
     width: 50%;
   }
 
-  .edina_tm_contact .mainpart {
+  .zehra_tm_contact .mainpart {
     flex-direction: column;
     align-items: baseline;
   }
-  .edina_tm_contact .mainpart .left {
+  .zehra_tm_contact .mainpart .left {
     width: 100%;
     margin-right: 0px;
     margin-bottom: 50px;
   }
-  .edina_tm_contact .right {
+  .zehra_tm_contact .right {
     width: 100%;
     margin-left: 0px;
   }
 
-  .edina_tm_modalbox .close {
+  .zehra_tm_modalbox .close {
     margin-left: 10px;
   }
-  .edina_tm_modalbox .close .svg {
+  .zehra_tm_modalbox .close .svg {
     width: 25px;
     height: 25px;
   }
-  .edina_tm_modalbox .description_wrap {
+  .zehra_tm_modalbox .description_wrap {
     padding: 15px;
   }
-  .edina_tm_modalbox .popup_informations h3 {
+  .zehra_tm_modalbox .popup_informations h3 {
     font-size: 20px;
   }
-  .edina_tm_modalbox .news_details span {
+  .zehra_tm_modalbox .news_details span {
     font-size: 12px;
     line-height: 1;
   }
@@ -2618,61 +2618,61 @@ a {
     padding: 0px 20px;
   }
 
-  .edina_tm_intro .go_purchase h3 {
+  .zehra_tm_intro .go_purchase h3 {
     font-size: 40px;
   }
-  .edina_tm_intro .main_title h3 {
+  .zehra_tm_intro .main_title h3 {
     font-size: 40px;
   }
 }
 @media (max-width: 991px) {
-  .edina_tm_contact .extra_info .wrapper > li {
+  .zehra_tm_contact .extra_info .wrapper > li {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  .edina_tm_about .wrapper {
+  .zehra_tm_about .wrapper {
     flex-direction: column;
     align-items: baseline;
   }
-  .edina_tm_contact .extra_info .wrapper {
+  .zehra_tm_contact .extra_info .wrapper {
     margin: 0px;
   }
 
-  .edina_tm_about .wrapper .left {
+  .zehra_tm_about .wrapper .left {
     width: 100%;
     padding: 0px;
     margin-bottom: 30px;
   }
-  .edina_tm_about .wrapper .right {
+  .zehra_tm_about .wrapper .right {
     width: 100%;
     padding: 0px;
   }
-  .edina_tm_about .experience {
+  .zehra_tm_about .experience {
     width: 150px;
     height: 150px;
     left: 15px;
   }
-  .edina_tm_about .experience .info {
+  .zehra_tm_about .experience .info {
     line-height: 1.2;
     h3 {
       font-size: 22px;
     }
   }
-  .edina_tm_about .experience .info span {
+  .zehra_tm_about .experience .info span {
     font-size: 13px;
   }
-  .edina_tm_hero .name {
+  .zehra_tm_hero .name {
     font-size: 36px;
   }
-  .edina_tm_hero .image {
+  .zehra_tm_hero .image {
     width: 200px;
     height: 200px;
   }
-  .edina_tm_about .about_title h3 {
+  .zehra_tm_about .about_title h3 {
     font-size: 35px;
   }
-  .edina_tm_title h3 {
+  .zehra_tm_title h3 {
     font-size: 35px;
   }
 
@@ -2707,38 +2707,38 @@ a {
     width: 15px;
     bottom: -5px;
   }
-  .edina_tm_testimonials .list ul li .list_inner {
+  .zehra_tm_testimonials .list ul li .list_inner {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .edina_tm_services ul li .list_inner {
+  .zehra_tm_services ul li .list_inner {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .edina_tm_contact .mainpart .left {
+  .zehra_tm_contact .mainpart .left {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .edina_tm_contact .extra_info .wrapper > li .list_inner {
+  .zehra_tm_contact .extra_info .wrapper > li .list_inner {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .edina_tm_intro .main_title h3 {
+  .zehra_tm_intro .main_title h3 {
     font-size: 30px;
   }
-  .edina_tm_intro .go_purchase h3 {
+  .zehra_tm_intro .go_purchase h3 {
     font-size: 28px;
     line-height: 42px;
   }
-  .edina_tm_intro .demo_list ul {
+  .zehra_tm_intro .demo_list ul {
     margin: 0px;
     margin-left: -30px;
     @media (max-width: 767px) {
       margin-left: 0;
     }
   }
-  .edina_tm_intro .demo_list ul li {
+  .zehra_tm_intro .demo_list ul li {
     padding-left: 30px;
     @media (max-width: 767px) {
       padding-left: 0;
@@ -2748,43 +2748,43 @@ a {
   }
 }
 @media (max-width: 767px) {
-  .edina_tm_contact .extra_info .wrapper > li {
+  .zehra_tm_contact .extra_info .wrapper > li {
     width: 100%;
     padding-left: 0px;
   }
-  .edina_tm_services ul {
+  .zehra_tm_services ul {
     margin: 0px;
   }
-  .edina_tm_services ul li {
+  .zehra_tm_services ul li {
     width: 100%;
     padding-left: 0px;
   }
 }
 @media (max-width: 480px) {
-  .edina_tm_testimonials .list .details {
+  .zehra_tm_testimonials .list .details {
     flex-direction: column;
     align-items: baseline;
   }
-  .edina_tm_testimonials .list .author {
+  .zehra_tm_testimonials .list .author {
     margin-bottom: 30px;
   }
-  .edina_tm_testimonials .list .image {
+  .zehra_tm_testimonials .list .image {
     width: 75px;
     height: 75px;
   }
-  .edina_tm_testimonials .list .short h3 {
+  .zehra_tm_testimonials .list .short h3 {
     font-size: 17px;
   }
-  .edina_tm_testimonials .list .short span {
+  .zehra_tm_testimonials .list .short span {
     font-size: 14px;
   }
-  .edina_tm_testimonials .list .text p {
+  .zehra_tm_testimonials .list .text p {
     font-size: 17px;
   }
-  .edina_tm_testimonials .list .details {
+  .zehra_tm_testimonials .list .details {
     margin-bottom: 25px;
   }
-  .edina_tm_hero .name {
+  .zehra_tm_hero .name {
     font-size: 32px;
   }
 }
@@ -3243,7 +3243,7 @@ a {
 // horizontal menu
 @media (min-width: 1200px) {
   .horizontal-menu {
-    .edina_tm_sidebar {
+    .zehra_tm_sidebar {
       width: 100%;
       position: static;
       height: auto;
@@ -3299,7 +3299,7 @@ a {
     }
   }
 
-  .fixed-header .edina_tm_sidebar {
+  .fixed-header .zehra_tm_sidebar {
     position: fixed;
     top: 0;
     left: 0;
@@ -3338,6 +3338,6 @@ a {
   }
 }
 
-.theme-dark .fixed-header .edina_tm_sidebar {
+.theme-dark .fixed-header .zehra_tm_sidebar {
   background: #000;
 }

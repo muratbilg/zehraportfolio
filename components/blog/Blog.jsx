@@ -92,7 +92,7 @@ const Blog = () => {
           overlayClassName="custom-overlay"
           closeTimeoutMS={500}
         >
-          <div className="edina_tm_modalbox">
+          <div className="zehra_tm_modalbox">
             <button className="close-modal" onClick={() => setIsOpen(false)}>
               <img src="/img/svg/cancel.svg" alt="close icon" />
             </button>

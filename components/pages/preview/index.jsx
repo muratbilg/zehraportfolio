@@ -53,14 +53,14 @@ var settings = {
   ],
 };
 
-const EdinaPreview = () => {
+const zehraPreview = () => {
   useEffect(() => {
     document.querySelector("body").classList.remove("theme-dark");
   }, []);
 
   return (
     <div
-      className="edina_tm_intro bg-image"
+      className="zehra_tm_intro bg-image"
       style={{
         backgroundImage: `url(img/1.jpg)`,
       }}
@@ -94,7 +94,7 @@ const EdinaPreview = () => {
                       <img src={`img/intro/${val.img}.jpg`} alt="demo" />
                       <h3>{val.title}</h3>
                       <Link
-                        className="edina_tm_full_link"
+                        className="zehra_tm_full_link"
                         href={val.routerPath}
                         target="_blank"
                         rel="noreferrer"
@@ -114,17 +114,17 @@ const EdinaPreview = () => {
           You are at the right step now
         </h6>
         <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
-          Purchase Edina and Build Your Super Fast{" "}
+          Purchase zehra and Build Your Super Fast{" "}
           <span className="theme-color">React Next JS</span> Portfolio Template.
         </h3>
         <div
-          className="edina_tm_button intro"
+          className="zehra_tm_button intro"
           data-aos="fade-up"
           data-aos-duration="1200"
           data-aos-delay="200"
         >
           <a
-            href="https://themeforest.net/item/edina-personal-portfolio-react-template/34082686"
+            href="https://themeforest.net/item/zehra-personal-portfolio-react-template/34082686"
             target="_blank"
             rel="noreferrer"
           >
@@ -136,7 +136,7 @@ const EdinaPreview = () => {
 
       <div className="copyright">
         <p>
-          &copy; {new Date().getFullYear()} Edina by{" "}
+          &copy; {new Date().getFullYear()} zehra by{" "}
           <a
             href="https://themeforest.net/user/ib-themes"
             target="_blank"
@@ -152,4 +152,4 @@ const EdinaPreview = () => {
   );
 };
 
-export default EdinaPreview;
+export default zehraPreview;
