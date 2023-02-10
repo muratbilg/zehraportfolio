@@ -66,7 +66,7 @@ const About = () => {
 
           <div className="rightpart">
             <div className="image">
-              <img src="img/hero/1.jpg" alt="thumb" />
+              <Image src="img/hero/1.jpg" alt="thumb" />
 
               <div
                 className="main"
@@ -106,7 +106,7 @@ const About = () => {
       >
         <div className="zehra_tm_modalbox">
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/svg/cancel.svg" alt="close icon" />
+            <Image src="/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 

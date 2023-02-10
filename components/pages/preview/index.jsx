@@ -67,14 +67,14 @@ const zehraPreview = () => {
     >
       <span className=" preview-sticker pos-sticker react-sticker">
         <h6>NextJS</h6>
-        <img className="logo" src="img/intro/react.png" alt="react nextjs" />
+        <Image className="logo" src="img/intro/react.png" alt="react nextjs" />
       </span>
       {/* preview sticker */}
 
       <div className="mainpart" id="demos">
         <div className="container">
           <div className="main_title">
-            <img src="img/intro/logo.png" alt="brand" />
+            <Image src="img/intro/logo.png" alt="brand" />
             <p>Personal Portfolio React NextJS Template + RTL</p>
           </div>
           {/* End main_title */}
@@ -91,7 +91,7 @@ const zehraPreview = () => {
                     key={val.id}
                   >
                     <div className="list_inner">
-                      <img src={`img/intro/${val.img}.jpg`} alt="demo" />
+                      <Image src={`img/intro/${val.img}.jpg`} alt="demo" />
                       <h3>{val.title}</h3>
                       <Link
                         className="zehra_tm_full_link"

@@ -80,7 +80,7 @@ const HeaderHorizontal = () => {
                         className={val.activeClass}
                         onClick={handleClick}
                       >
-                        <img
+                        <Image
                           className="svg custom"
                           src={`img/svg/${val.icon}.svg`}
                           alt="icon"

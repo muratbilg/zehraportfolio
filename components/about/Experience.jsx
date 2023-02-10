@@ -6,7 +6,7 @@ const Experience = () => {
       {experienceContent.map((val, i) => (
         <li key={i}>
           <div className="icon">
-            <img src="img/about/briefcase.png" alt="icon" />
+            <Image src="img/about/briefcase.png" alt="icon" />
             <i className="fa fa-briefcase"></i>
           </div>
           <span className="time open-sans-font text-uppercase">{val.year}</span>
