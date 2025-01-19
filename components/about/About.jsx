@@ -107,7 +107,7 @@ const About = () => {
       >
         <div className="zehra_tm_modalbox">
           <button className="close-modal" onClick={toggleModalOne}>
-            <Image src="/img/svg/cancel.svg" alt="close icon" />
+            <Image src="/img/svg/cancel.svg" fill alt="close icon" />
           </button>
           {/* End close icon */}
 
