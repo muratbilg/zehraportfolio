@@ -14,7 +14,7 @@ import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
 import Appointment from "../../Appointment";
 
-const EdinaHorizontal = () => {
+const ZehraHorizontal = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -75,9 +75,9 @@ const EdinaHorizontal = () => {
       <About />
       {/* End Hero */}
 
-      <div className="edina_tm_services" id="service">
+      <div className="zehra_tm_services" id="service">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="zehra_tm_title">
             <h3>What I Do</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -90,9 +90,9 @@ const EdinaHorizontal = () => {
       </div>
       {/* End Services */}
 
-      {/* <div className="edina_tm_portfolio" id="portfolio">
+      {/* <div className="zehra_tm_portfolio" id="portfolio">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="zehra_tm_title">
             <h3>Portfolio</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -103,9 +103,9 @@ const EdinaHorizontal = () => {
         </div>
       </div>*/}
 
-      <div className="edina_tm_testimonials" id="testimonial">
+      <div className="zehra_tm_testimonials" id="testimonial">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="zehra_tm_title">
             <h3>Testimonials</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -122,9 +122,9 @@ const EdinaHorizontal = () => {
       </div>
       {/* End Testimonial */}
 
-      <div className="edina_tm_news" id="blog">
+      <div className="zehra_tm_news" id="blog">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="zehra_tm_title">
             <h3>Blog</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -136,9 +136,9 @@ const EdinaHorizontal = () => {
         </div>
       </div>
       {/* End Blog */}
-      <div className="edina_tm_contact" id="appointment">
+      <div className="zehra_tm_contact" id="appointment">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="zehra_tm_title">
             <h3>Randevu</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -182,9 +182,9 @@ const EdinaHorizontal = () => {
         </div>
       </div>
       {/* /CONTACT */}
-      <div className="edina_tm_contact" id="contact">
+      <div className="zehra_tm_contact" id="contact">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="zehra_tm_title">
             <h3>Iletisim</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -232,4 +232,4 @@ const EdinaHorizontal = () => {
   );
 };
 
-export default EdinaHorizontal;
+export default ZehraHorizontal;

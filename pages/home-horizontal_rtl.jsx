@@ -5,7 +5,7 @@ import HomeHorizontalRtl from "../components/pages/home-horizontal_rtl";
 const index = () => {
   return (
     <>
-      <Seo pageTitle="Edina Horizontal Rtl" />
+      <Seo pageTitle="zehra Horizontal Rtl" />
       <HomeHorizontalRtl />
     </>
   );

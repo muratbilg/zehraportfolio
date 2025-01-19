@@ -18,7 +18,7 @@ const index = () => {
           </p>
 
           <div
-            className="edina_tm_button"
+            className="zehra_tm_button"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="100"

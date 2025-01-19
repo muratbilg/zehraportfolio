@@ -5,7 +5,6 @@ import sidebarContent from "../../data/sidebar";
 import Image from "next/image";
 import logo from "../../public/img/logo/dark.png";
 import logo2 from "../../public/img/logo/light.png";
-
 // sidebar footer bottom content
 const sidebarFooterContent = {
   name: "Zehra",
@@ -45,7 +44,7 @@ const HeaderHorizontal = () => {
       {/* End Mobile Header */}
 
       <div
-        className={click ? "edina_tm_sidebar  menu-open" : "edina_tm_sidebar"}
+        className={click ? "zehra_tm_sidebar  menu-open" : "zehra_tm_sidebar"}
       >
         <div className="sidebar_inner">
           <div className="logo">
@@ -80,7 +79,7 @@ const HeaderHorizontal = () => {
                         className={val.activeClass}
                         onClick={handleClick}
                       >
-                        <img
+                        <Image
                           className="svg custom"
                           src={`img/svg/${val.icon}.svg`}
                           alt="icon"

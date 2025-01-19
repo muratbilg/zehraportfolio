@@ -4,7 +4,7 @@ import ReactTooltip from "react-tooltip";
 import Slider from "react-slick";
 import Social from "../Social";
 import portfolioData from "../../data/portfolio";
-
+import Image from "next/image";
 Modal.setAppElement("#__next");
 
 const Portfolio = () => {
@@ -57,7 +57,7 @@ const Portfolio = () => {
                     onClick={() => handleModle(item?.id)}
                     className="details"
                   >
-                    <img
+                    <Image
                       src={item.portfolioImage}
                       data-tip
                       data-for={item.tooltipId}
@@ -94,9 +94,9 @@ const Portfolio = () => {
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="zehra_tm_modalbox">
           <button className="close-modal" onClick={() => setIsOpen(false)}>
-            <img src="/img/svg/cancel.svg" alt="close icon" />
+            <Image src="/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 

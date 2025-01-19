@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import testimonialContent from "../../data/testimonial";
+import Image from "next/image";
 
 export default function Testimonial() {
   var settings = {
@@ -54,7 +55,7 @@ export default function Testimonial() {
               {/* End author */}
 
               <div className="icon">
-                <img className="svg" src="img/svg/quote.svg" alt="quote" />
+                <Image className="svg" src="img/svg/quote.svg" alt="quote" />
               </div>
               {/* End right quote icon */}
             </div>

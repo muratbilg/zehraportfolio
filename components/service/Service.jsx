@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import Tilt from "react-parallax-tilt";
 import servicesData from "../../data/services";
+import Image from "next/image";
 
 Modal.setAppElement("#__next");
 
@@ -48,9 +49,9 @@ const Service = () => {
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="zehra_tm_modalbox">
           <button className="close-modal" onClick={() => setIsOpen(false)}>
-            <img src="/img/svg/cancel.svg" alt="close icon" />
+            <Image src="/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 

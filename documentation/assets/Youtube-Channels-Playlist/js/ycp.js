@@ -55,7 +55,7 @@ $.fn.ycp = function(j) {
                 if (c.items[i].status.privacyStatus == "public") {
                     const b = c.items[i].snippet.resourceId.videoId;
                     ycp_part(b, i, k, l);
-                    d += `<div class="play" data-vvv="${b}" data-img="${c.items[i].snippet.thumbnails.high.url}" title="${c.items[i].snippet.title}"><div class="thumb"><img src="${c.items[i].snippet.thumbnails.default.url}" alt=" "><span class="tm${i}"></span></div>`;
+                    d += `<div class="play" data-vvv="${b}" data-img="${c.items[i].snippet.thumbnails.high.url}" title="${c.items[i].snippet.title}"><div class="thumb"><Image src="${c.items[i].snippet.thumbnails.default.url}" alt=" "><span class="tm${i}"></span></div>`;
                     d += `<div class="title">${c.items[i].snippet.title}</div><span class="mute by${i}"></span><br><span class="mute views${i}"></span> <span class="mute">-</span> <span class="mute date${i}"></span></div>`
                 }
             });

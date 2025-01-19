@@ -2,6 +2,7 @@ import { useState } from "react";
 import Skills from "./Skills";
 import Modal from "react-modal";
 import ModalContent from "./modal/ModalContent";
+import Image from "next/image";
 
 Modal.setAppElement("#__next");
 
@@ -13,7 +14,7 @@ const About = () => {
 
   return (
     //    ABOUT
-    <div className="edina_tm_about" id="about">
+    <div className="zehra_tm_about" id="about">
       <div className="container">
         <div className="about_title">
           <h3>Hakkımda</h3>
@@ -51,7 +52,7 @@ const About = () => {
                   <Skills />
                 </div>
               </div>
-              {/* <div className="edina_tm_button">
+              {/* <div className="zehra_tm_button">
                 <button
                   type="submit"
                   className="color"
@@ -66,7 +67,7 @@ const About = () => {
 
           <div className="rightpart">
             <div className="image">
-              <img src="img/hero/1.jpg" alt="thumb" />
+              <Image src="img/hero/1.jpg" alt="thumb" />
 
               <div
                 className="main"
@@ -104,9 +105,9 @@ const About = () => {
         overlayClassName="custom-overlay "
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="zehra_tm_modalbox">
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/svg/cancel.svg" alt="close icon" />
+            <Image src="/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 

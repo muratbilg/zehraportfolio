@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import Slider from "react-slick";
 import blogsData from "../../data/blogs";
 import Social from "../Social";
-
+import Image from "next/image";
 Modal.setAppElement("#__next");
 
 const Blog = () => {
@@ -92,9 +92,9 @@ const Blog = () => {
           overlayClassName="custom-overlay"
           closeTimeoutMS={500}
         >
-          <div className="edina_tm_modalbox">
+          <div className="zehra_tm_modalbox">
             <button className="close-modal" onClick={() => setIsOpen(false)}>
-              <img src="/img/svg/cancel.svg" alt="close icon" />
+              <Image src="/img/svg/cancel.svg" alt="close icon" />
             </button>
             {/* End close icon */}
 
