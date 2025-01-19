@@ -170,11 +170,8 @@ const EdinaHomeSidebar = () => {
       <div className="edina_tm_contact" id="contact">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Iletisim</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
+            <h3>İletişim</h3>
+            <p></p>
           </div>
           <div className="extra_info">
             <Address />
@@ -189,9 +186,9 @@ const EdinaHomeSidebar = () => {
             >
               <div className="title">
                 <p>
-                  I am always open to discussing product
+                  Her zaman <span> destek ve yardım </span> için
                   <br />
-                  <span> design work or partnerships.</span>
+                  iletişime geçebilirsiniz.
                 </p>
               </div>
               {/* End title */}
