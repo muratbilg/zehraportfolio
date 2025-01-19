@@ -55,7 +55,12 @@ export default function Testimonial() {
               {/* End author */}
 
               <div className="icon">
-                <Image className="svg" src="img/svg/quote.svg" alt="quote" />
+                <Image
+                  className="svg"
+                  src="/img/svg/quote.svg"
+                  alt="quote"
+                  fill
+                />
               </div>
               {/* End right quote icon */}
             </div>

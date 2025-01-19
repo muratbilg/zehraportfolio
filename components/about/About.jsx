@@ -67,7 +67,7 @@ const About = () => {
 
           <div className="rightpart">
             <div className="image">
-              <Image src="img/hero/1.jpg" alt="thumb" />
+              <Image src="/img/hero/1.jpg" alt="thumb" fill />
 
               <div
                 className="main"

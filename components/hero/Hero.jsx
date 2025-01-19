@@ -1,6 +1,6 @@
 import React from "react";
 import Social from "../Social";
-import ReactTyped from "react-typed";
+import { ReactTyped } from "react-typed";
 import Image from "next/image";
 import shapeImage from "../../public/img/hero/3.jpg";
 import heroImage from "../../public/img/hero/2.jpg";
@@ -17,7 +17,6 @@ const heroContent = {
 
 const Hero = () => {
   return (
-    //    HERO
     <div className="zehra_tm_hero" id="home">
       <div className="content">
         <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
@@ -91,7 +90,6 @@ const Hero = () => {
         </div>
       </div>
     </div>
-    // /HERO
   );
 };
 
