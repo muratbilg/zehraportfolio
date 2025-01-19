@@ -1,13 +1,13 @@
-import {RxCalendar} from 'react-icons/rx';
-import {AiOutlineHome} from 'react-icons/ai'
-import {FiUser} from 'react-icons/fi'
-import {RiMentalHealthLine} from 'react-icons/ri'
-import {TfiCommentAlt}  from 'react-icons/tfi'
-import {HiOutlineNewspaper} from 'react-icons/hi'
-import {FiPhoneCall} from 'react-icons/fi'
-import {CgNotes} from 'react-icons/cg'
+import { RxCalendar } from "react-icons/rx";
+import { AiOutlineHome } from "react-icons/ai";
+import { FiUser } from "react-icons/fi";
+import { RiMentalHealthLine } from "react-icons/ri";
+import { TfiCommentAlt } from "react-icons/tfi";
+import { HiOutlineNewspaper } from "react-icons/hi";
+import { FiPhoneCall } from "react-icons/fi";
+import { CgNotes } from "react-icons/cg";
 
-module.exports = [
+const navItems = [
   {
     icon: <AiOutlineHome />,
     itemName: "Anasayfa",
@@ -57,3 +57,5 @@ module.exports = [
     activeClass: "",
   },
 ];
+
+export default navItems;
